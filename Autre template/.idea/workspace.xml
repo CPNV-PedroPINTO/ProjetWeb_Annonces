@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612347242761</updated>
-      <workItem from="1612347243794" duration="2552000" />
+      <workItem from="1612347243794" duration="3543000" />
     </task>
     <servers />
   </component>
@@ -89,6 +89,22 @@
       <screen x="66" y="0" width="1854" height="1080" />
     </state>
     <state x="447" y="194" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.0.1854.1080@66.0.1854.1080" timestamp="1612347258462" />
+    <state width="1811" height="295" key="GridCell.Tab.0.bottom" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.bottom/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.center" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.center/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.left" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.left/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.right" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
     <state x="810" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612347427500">
       <screen x="66" y="0" width="1854" height="1080" />
     </state>

@@ -627,7 +627,6 @@ iframe {
 -----------------------------------------------------------*/
 .logo {
   display: block;
-
   left: 52px;
   top: 50%;
   -webkit-transform: translateY(-50%);

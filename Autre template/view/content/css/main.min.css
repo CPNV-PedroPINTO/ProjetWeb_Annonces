@@ -552,7 +552,7 @@ button:hover {
 }
 
 .logo img {
-    max-height: 27px
+    max-height: 100px
 }
 
 .main_menu {
@@ -643,7 +643,7 @@ li.sale-noti > a {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 52px;
+    right: 52px;
     top: 50%;
     transform: translateY(-50%)
 }
@@ -669,8 +669,9 @@ li.sale-noti > a {
 }
 
 .header-icons-noti {
-    justify-content: left;
-    align-items: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -678,7 +679,7 @@ li.sale-noti > a {
     color: #fff;
     font-family: Montserrat-Medium;
     font-size: 12px;
-
+    position: absolute;
     top: 0;
     right: -10px
 }
