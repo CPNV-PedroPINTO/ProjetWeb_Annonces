@@ -315,40 +315,7 @@
 
 <?=$content; ?>
 
-<!-- Shipping -->
-<section class="shipping bgwhite p-t-62 p-b-46">
-    <div class="flex-w p-l-15 p-r-15">
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-            <h4 class="m-text12 t-center">
-                Livraison
-            </h4>
 
-            <a href="#" class="s-text11 t-center">
-                Livraison gratuite dès 200.- de commande
-            </a>
-        </div>
-
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
-            <h4 class="m-text12 t-center">
-                Retour sous 30 jours
-            </h4>
-
-            <span class="s-text11 t-center">
-					Retour dans un délai de 30 jours pour un échange.
-				</span>
-        </div>
-
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-            <h4 class="m-text12 t-center">
-                Jours d'ouverture
-            </h4>
-
-            <span class="s-text11 t-center">
-					Magasin ouvert du Lundi to Dimanche
-				</span>
-        </div>
-    </div>
-</section>
 
 
 <!-- Footer -->
@@ -362,50 +329,18 @@
             <div>
                 <p class="s-text7 w-size27">
                     Venez à notre magasin<br>
-                    rue de la Glisse 12, 2704 Sautons <br>ou appelez-nous au (+41) 27 890 12 34
+                    Rue de l'argent 12, 2704 Money <br>ou appelez-nous au (+41) 79 856 84 05
                 </p>
 
                 <div class="flex-m p-t-30">
-                    <a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-                    <a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-                    <a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
-                    <a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
-                    <a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+                    <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/anibis_ch/?hl=fr" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                    <a href="https://www.snapchat.com/add/supercuany" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+                    <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
                 </div>
             </div>
         </div>
 
-        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
-            <h4 class="s-text12 p-b-30">
-                Categories
-            </h4>
-
-            <ul>
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Burton
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Nidecker
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        K2
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Prior
-                    </a>
-                </li>
-            </ul>
-        </div>
 
         <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
             <h4 class="s-text12 p-b-30">
@@ -414,125 +349,39 @@
 
             <ul>
                 <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Recherche
+                    <a href="https://www.cpnv.ch" class="s-text7">
+                        Formation
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="#" class="s-text7">
+                    <a href="view/aboutUs.php" class="s-text7">
                         À propos de nous
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Contactez-nous
+                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" class="s-text7">
+                      Notre Github
                     </a>
                 </li>
 
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Retours
-                    </a>
-                </li>
             </ul>
         </div>
 
-        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
-            <h4 class="s-text12 p-b-30">
-                Aide
-            </h4>
-
-            <ul>
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Suivi
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Retours
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        Livraison
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        FAQs
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
-            <h4 class="s-text12 p-b-30">
-                Newsletter
-            </h4>
-
-            <form>
-                <div class="effect1 w-size9">
-                    <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@exemple.com">
-                    <span class="effect1-line"></span>
-                </div>
-
-                <div class="w-size2 p-t-20">
-                    <!-- Button -->
-                    <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                        Inscription
-                    </button>
-                </div>
-
-            </form>
-        </div>
     </div>
 
-    <div class="t-center p-l-15 p-r-15">
-        <a href="#">
-            <img class="h-size2" src="view/content/images/icons/paypal.png" alt="IMG-PAYPAL">
-        </a>
-
-        <a href="#">
-            <img class="h-size2" src="view/content/images/icons/visa.png" alt="IMG-VISA">
-        </a>
-
-        <a href="#">
-            <img class="h-size2" src="view/content/images/icons/mastercard.png" alt="IMG-MASTERCARD">
-        </a>
-
-        <a href="#">
-            <img class="h-size2" src="view/content/images/icons/express.png" alt="IMG-EXPRESS">
-        </a>
-
-        <a href="#">
-            <img class="h-size2" src="view/content/images/icons/discover.png" alt="IMG-DISCOVER">
-        </a>
-
-        <div class="t-center s-text8 p-t-20">
-            Copyright © SnowPoint 2020 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        </div>
-    </div>
 </footer>
 
 
 
-<!-- Back to top -->
-<div class="btn-back-to-top bg0-hov" id="myBtn">
-		<span class="symbol-btn-back-to-top">
-			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
-		</span>
-</div>
+
 
 <!-- Container Selection1 -->
 <div id="dropDownSelect1"></div>
 
 
+<!-- SCRIPTS -->
 
 <!--===============================================================================================-->
 <script type="text/javascript" src="view/content/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -558,15 +407,7 @@
 <script type="text/javascript" src="view/content/vendor/lightbox2/js/lightbox.min.js"></script>
 <!--===============================================================================================-->
 <script type="text/javascript" src="view/content/vendor/sweetalert/sweetalert.min.js"></script>
-<script type="text/javascript">
 
-    $('.block2-btn-addwishlist').each(function(){
-        var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
-        $(this).on('click', function(){
-            swal(nameProduct, "is added to wishlist !", "success");
-        });
-    });
-</script>
 
 <!--===============================================================================================-->
 <script src="view/content/js/main.js"></script>
