@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title><?=$title; ?></title>
+    <title><?= $title; ?></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -44,7 +44,8 @@
     <link rel="stylesheet" type="text/css" href="view/content/css/util.css">
     <link rel="stylesheet" type="text/css" href="view/content/css/main.css">
     <!--===============================================================================================-->
-    <link rel="script" type"tex
+    <link rel="script" type
+    "tex
 </head>
 <body class="animsition">
 <!-- Header -->
@@ -53,15 +54,12 @@
     <div class="container-menu-header">
         <div class="topbar">
 
-            <span class="topbar-child1">
-					Livraison gratuite dès 200.-
-				</span>
 
             <div class="topbar-child2">
 					<span class="topbar-email">
                         <?php if (isset($_SESSION['userEmailAddress'])) : ?>
-                            <?=$_SESSION['userEmailAddress']; ?>
-                        <?php endif;?>
+                            <?= $_SESSION['userEmailAddress']; ?>
+                        <?php endif; ?>
 					</span>
             </div>
         </div>
@@ -76,14 +74,6 @@
             <div class="wrap_menu">
                 <nav class="menu">
                     <ul class="main_menu">
-                        <li>
-                            <a href="index.php">Accueil</a>
-                        </li>
-
-                        <li>
-                            <a href="index.php?action=displayArticles">Nos snows</a>
-                        </li>
-
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
                             <li>
                                 <a href="index.php?action=login">Login</a>
@@ -96,7 +86,7 @@
                                 <li>
                                     <a href="index.php?action=articlesAdmin">Gestion</a>
                                 </li>
-                            <?php endif;?>
+                            <?php endif; ?>
                             <li>
                                 <a href="index.php?action=logout">Logout</a>
                             </li>
@@ -117,39 +107,41 @@
                     </a>
                 <?php else : ?>
 
-                <?php endif;?>
+                <?php endif; ?>
 
 
                 <div class="header-wrapicon2">
 
                     <!-- Header cart noti -->
                     <div class="header-cart header-dropdown">
-                        <?php if(isset($_SESSION['cart'])): ?>
-                        <ul class="header-cart-wrapitem">
-                                <?php foreach ($_SESSION['cart']->GetItems() as $cartItem) :?>
+                        <?php if (isset($_SESSION['cart'])): ?>
+                            <ul class="header-cart-wrapitem">
+                                <?php foreach ($_SESSION['cart']->GetItems() as $cartItem) : ?>
                                     <li class="header-cart-item">
                                         <div class="header-cart-item-img">
-                                            <img src="<?= $cartItem->GetImgPath(); ?>" alt="<?= $cartItem->GetArticleId(); ?>" alt="IMG-PRODUCT">
+                                            <img src="<?= $cartItem->GetImgPath(); ?>"
+                                                 alt="<?= $cartItem->GetArticleId(); ?>" alt="IMG-PRODUCT">
                                         </div>
 
                                         <div class="header-cart-item-txt">
                                             <a href="#" class="header-cart-item-name">
-                                                <?=$cartItem->GetQuantity() . "x " . $cartItem->GetArticleId();?>
+                                                <?= $cartItem->GetQuantity() . "x " . $cartItem->GetArticleId(); ?>
                                             </a>
 
                                             <span class="header-cart-item-info">
-                                                <?=$cartItem->GetPrice(); ?> .00 CHF
+                                                <?= $cartItem->GetPrice(); ?> .00 CHF
                                             </span>
                                         </div>
                                     </li>
                                 <?php endforeach ?>
-                        </ul>
-                        <div class="header-cart-total">
-                            Total: <?=$_SESSION['cart']->GetTotalPrice(); ?> .00 CHF
-                        </div>
+                            </ul>
+                            <div class="header-cart-total">
+                                Total: <?= $_SESSION['cart']->GetTotalPrice(); ?> .00 CHF
+                            </div>
 
                         <?php else : ?>
-                        <a href="index.php?action=displayArticles" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">Go Shopping !</a>
+                            <a href="index.php?action=displayArticles"
+                               class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">Go Shopping !</a>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -177,12 +169,13 @@
                     <a href="index.php?action=logout" class="header-wrapicon1 dis-block">
                         <img src="view/content/images/icons/icon-header-01-log.png" class="header-icon1" alt="ICON">
                     </a>
-                <?php endif;?>
+                <?php endif; ?>
 
                 <span class="linedivide2"></span>
 
                 <div class="header-wrapicon2">
-                    <img src="view/content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON  ">
+                    <img src="view/content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown"
+                         alt="ICON  ">
                     <span class="header-icons-noti">0</span>
 
                     <!-- Header cart noti -->
@@ -259,7 +252,7 @@
     </div>
 
     <!-- Menu Mobile -->
-    <div class="wrap-side-menu" >
+    <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
                 <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
@@ -272,8 +265,8 @@
                     <div class="topbar-child2-mobile">
                         <span class="topbar-email">
                             <?php if (isset($_SESSION['userEmailAddress'])) : ?>
-                                <?=$_SESSION['userEmailAddress'];?>
-                            <?php endif;?>
+                                <?= $_SESSION['userEmailAddress']; ?>
+                            <?php endif; ?>
                     	</span>
                     </div>
                 </li>
@@ -313,9 +306,7 @@
     </div>
 </header>
 
-<?=$content; ?>
-
-
+<?= $content; ?>
 
 
 <!-- Footer -->
@@ -334,9 +325,12 @@
 
                 <div class="flex-m p-t-30">
                     <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/anibis_ch/?hl=fr" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-                    <a href="https://www.snapchat.com/add/supercuany" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
-                    <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+                    <a href="https://www.instagram.com/anibis_ch/?hl=fr"
+                       class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                    <a href="https://www.snapchat.com/add/supercuany"
+                       class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+                    <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
+                       class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
                 </div>
             </div>
         </div>
@@ -362,7 +356,7 @@
 
                 <li class="p-b-9">
                     <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" class="s-text7">
-                      Notre Github
+                        Notre Github
                     </a>
                 </li>
 
@@ -372,9 +366,6 @@
     </div>
 
 </footer>
-
-
-
 
 
 <!-- Container Selection1 -->
