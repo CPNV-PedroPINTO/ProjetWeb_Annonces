@@ -31,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 133" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1ny0u7n53APMPxk67xP92B2w6mV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -54,7 +55,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="53095ac5-5572-4c7a-be81-de029a9f3cb9" name="Default Changelist" comment="" />
@@ -70,7 +74,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -85,10 +89,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="700" y="201" key="#PHP" timestamp="1612347256133">
-      <screen x="66" y="0" width="1854" height="1080" />
+    <state x="657" y="195" key="#PHP" timestamp="1612521017767">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="657" y="195" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1612521017767" />
     <state x="700" y="201" key="#PHP/66.0.1854.1080@66.0.1854.1080" timestamp="1612347256133" />
+    <state x="669" y="207" key="#Unnamed" timestamp="1612521019022">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="669" y="207" key="#Unnamed/0.0.1920.1050@0.0.1920.1050" timestamp="1612521019022" />
     <state x="447" y="194" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612347258462">
       <screen x="66" y="0" width="1854" height="1080" />
     </state>
@@ -97,21 +106,25 @@
       <screen x="66" y="0" width="1854" height="1080" />
     </state>
     <state x="773" y="294" key="FileChooserDialogImpl/66.0.1854.1080@66.0.1854.1080" timestamp="1612508882107" />
-    <state width="1811" height="295" key="GridCell.Tab.0.bottom" timestamp="1612350947530">
-      <screen x="66" y="0" width="1854" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1612521057558">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1612521057558" />
     <state width="1811" height="295" key="GridCell.Tab.0.bottom/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
-    <state width="1811" height="295" key="GridCell.Tab.0.center" timestamp="1612350947530">
-      <screen x="66" y="0" width="1854" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1612521057558">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1612521057558" />
     <state width="1811" height="295" key="GridCell.Tab.0.center/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
-    <state width="1811" height="295" key="GridCell.Tab.0.left" timestamp="1612350947530">
-      <screen x="66" y="0" width="1854" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1612521057558">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1612521057558" />
     <state width="1811" height="295" key="GridCell.Tab.0.left/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
-    <state width="1811" height="295" key="GridCell.Tab.0.right" timestamp="1612350947530">
-      <screen x="66" y="0" width="1854" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1612521057558">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612521057558" />
     <state width="1811" height="295" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
     <state x="827" y="463" key="NewPhpFileDialog" timestamp="1612519796133">
       <screen x="66" y="0" width="1854" height="1080" />

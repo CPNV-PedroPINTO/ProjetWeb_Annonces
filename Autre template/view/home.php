@@ -11,7 +11,7 @@ ob_start();
 $title = "SnowPoint . Accueil";
 ?>
     <!-- Slide1 -->
-    <section class="slide1">
+ <!--   <section class="slide1">
         <div class="wrap-slick1">
             <div class="slick1">
                 <div class="item-slick1 item1-slick1" style="background-image: url(view/content/images/home_slide_men.jpg);">
@@ -25,7 +25,7 @@ $title = "SnowPoint . Accueil";
                         </h2>
 
                         <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
-                            <!-- Button -->
+                             Button
                             <a href="index.php?action=displayArticles" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
                                 En savoir plus
                             </a>
@@ -44,7 +44,7 @@ $title = "SnowPoint . Accueil";
                         </h2>
 
                         <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
-                            <!-- Button -->
+                             Button
                             <a href="index.php?action=displayArticles" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
                                 Shop Now
                             </a>
@@ -63,7 +63,7 @@ $title = "SnowPoint . Accueil";
                         </h2>
 
                         <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                            <!-- Button -->
+                             Button
                             <a href="index.php?action=displayArticles" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
                                 En savoir plus
                             </a>
@@ -73,7 +73,7 @@ $title = "SnowPoint . Accueil";
 
             </div>
         </div>
-    </section>
+   </section> -->
 
     <!-- Banner -->
     <section class="banner bgwhite p-t-40 p-b-40">
