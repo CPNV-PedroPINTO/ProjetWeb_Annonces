@@ -33,43 +33,7 @@ $title = "SnowPoint . Accueil";
                     </div>
                 </div>
 
-                <div class="item-slick1 item2-slick1" style="background-image: url(view/content/images/home_slide_women3.jpg);">
-                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
-							Collection Femmes 2020
-						</span>
 
-                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
-                            New arrivals
-                        </h2>
-
-                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
-                            <!-- Button -->
-                            <a href="index.php?action=displayArticles" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                Shop Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item-slick1 item3-slick1" style="background-image: url(view/content/images/home_slide_child2.jpg);">
-                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-							Collection Enfants 2020
-						</span>
-
-                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                            Nos nouveautés
-                        </h2>
-
-                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                            <!-- Button -->
-                            <a href="index.php?action=displayArticles" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                En savoir plus
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -82,8 +46,6 @@ $title = "SnowPoint . Accueil";
                 <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
                     <!-- block1 -->
                     <div class="block1 hov-img-zoom pos-relative m-b-30">
-                        <img src="view/content/images/men_snows/B101_banner.png" alt="IMG-BANNER">
-
                         <div class="block1-wrapbtn w-size2">
                             <!-- Button -->
                             <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
