@@ -627,7 +627,6 @@ iframe {
 -----------------------------------------------------------*/
 .logo {
   display: block;
-
   left: 52px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1107,7 +1106,6 @@ li.sale-noti > a {
 
 .side-menu .sub-menu > li {
   padding-left: 12px;
-  padding-top: 
 }
 
 .side-menu .sub-menu a:hover {
