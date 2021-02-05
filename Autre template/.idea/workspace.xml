@@ -67,9 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612347242761</updated>
+<<<<<<< HEAD
       <workItem from="1612347243794" duration="2552000" />
       <workItem from="1612350680963" duration="400000" />
       <workItem from="1612508747066" duration="75000" />
+=======
+      <workItem from="1612347243794" duration="3543000" />
+      <workItem from="1612446446044" duration="8000" />
+      <workItem from="1612508854492" duration="34000" />
+      <workItem from="1612518693760" duration="1989000" />
+>>>>>>> 6d569a49c1903d4ac10e8df1ea8907584b36a995
     </task>
     <servers />
   </component>
@@ -105,6 +112,7 @@
       <screen x="66" y="0" width="1854" height="1080" />
     </state>
     <state x="447" y="194" width="1092" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.0.1854.1080@66.0.1854.1080" timestamp="1612347258462" />
+<<<<<<< HEAD
     <state x="759" y="235" key="FileChooserDialogImpl" timestamp="1612508821839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,6 +137,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="321" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612508772052" />
+=======
+    <state x="773" y="294" key="FileChooserDialogImpl" timestamp="1612508882107">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state x="773" y="294" key="FileChooserDialogImpl/66.0.1854.1080@66.0.1854.1080" timestamp="1612508882107" />
+    <state width="1811" height="295" key="GridCell.Tab.0.bottom" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.bottom/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.center" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.center/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.left" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.left/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state width="1811" height="295" key="GridCell.Tab.0.right" timestamp="1612350947530">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state width="1811" height="295" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1612350947530" />
+    <state x="827" y="463" key="NewPhpFileDialog" timestamp="1612519796133">
+      <screen x="66" y="0" width="1854" height="1080" />
+    </state>
+    <state x="827" y="463" key="NewPhpFileDialog/66.0.1854.1080@66.0.1854.1080" timestamp="1612519796133" />
+>>>>>>> 6d569a49c1903d4ac10e8df1ea8907584b36a995
     <state x="810" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612347427500">
       <screen x="66" y="0" width="1854" height="1080" />
     </state>
