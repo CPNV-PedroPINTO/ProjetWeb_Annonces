@@ -345,6 +345,23 @@ iframe {
     }
 }
 
+.filtre {
+    margin-top: -0.8%;
+    margin-bottom: 20%;
+    position: fixed;
+    width: 10%;
+    height: 80%;
+    background-color: grey;
+}
+servicebtn{
+    background-color: white;
+    position: fixed;
+}
+
+.footer{
+    position: relative;
+}
+
 /*[ Restyle Select2 ]
 ///////////////////////////////////////////////////////////
 */
@@ -646,7 +663,7 @@ iframe {
 -----------------------------------------------------------*/
 .logo {
     margin-top: -0.5%;
-    margin-right: 92%;
+    margin-right: 96%;
 
 }
 
@@ -654,12 +671,15 @@ iframe {
     height: 100px;
 }
 
+.poulpe {
+    position: fixed;
+}
 
 /*[ Menu ]
 -----------------------------------------------------------*/
 .main_menu {
     list-style-type: none;
-    margin-top: -5%;
+    margin-top: -45%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -669,7 +689,8 @@ iframe {
     align-items: center;
     justify-content: center;
 }
-.wrap_menu{
+
+.wrap_menu {
     margin-left: 83%;
 
 }

@@ -10,6 +10,24 @@
 ob_start();
 $title = "SnowPoint . Accueil";
 ?>
+    <section class="filtre">
+        <div>
+            <br><br><br><br><br><br><br>
+
+
+            <button class="servicebtn">SERVICE</button>
+            <br>
+            <button>LOCATION</button>
+        </div>
+        <div>
+
+            <button>Annonce</button>
+
+        </div>
+
+    </section>
+
+
     <!-- Banner -->
     <section class="banner bgwhite p-t-40 p-b-40">
         <div class="container">
