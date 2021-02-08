@@ -346,16 +346,20 @@ iframe {
 }
 
 .filtre {
-    margin-top: -0.8%;
-    margin-bottom: 20%;
+    margin-top: -5%;
     position: fixed;
     width: 10%;
-    height: 80%;
+    height: 60%;
     background-color: grey;
+}
+.filtrebtn{
+    margin-left: 5%;
 }
 servicebtn{
     background-color: white;
-    position: fixed;
+}
+.annonce{
+    margin-top: 170%;
 }
 
 .footer{

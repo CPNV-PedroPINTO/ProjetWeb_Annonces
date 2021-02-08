@@ -11,15 +11,15 @@ ob_start();
 $title = "SnowPoint . Accueil";
 ?>
     <section class="filtre">
-        <div>
-            <br><br><br><br><br><br><br>
+        <div class="filtrebtn">
+            <br><br><br><br><br>
 
 
             <button class="servicebtn">SERVICE</button>
             <br>
             <button>LOCATION</button>
         </div>
-        <div>
+        <div class="annonce">
 
             <button>Annonce</button>
 
