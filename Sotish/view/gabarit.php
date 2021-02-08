@@ -76,10 +76,7 @@
                     <ul class="main_menu">
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
                             <li>
-                                <a href="index.php?action=login">Login</a>
-                            </li>
-                            <li>
-                                <a href="index.php?action=register">S'enregistrer</a>
+                                <a href="index.php?action=login">Login</a> / <a href="index.php?action=register">S'enregistrer</a>
                             </li>
                         <?php else : ?>
                             <?php if (isset($_SESSION['userType'])) : ?>

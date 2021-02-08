@@ -651,7 +651,7 @@ iframe {
 }
 
 .logo img {
-    height: 200px;
+    height: 100px;
 }
 
 
@@ -659,8 +659,7 @@ iframe {
 -----------------------------------------------------------*/
 .main_menu {
     list-style-type: none;
-    margin-left: 70%;
-    margin-top: -94%;
+    margin-top: -5%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -670,6 +669,11 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+.wrap_menu{
+    margin-left: 83%;
+
+}
+
 
 .main_menu > li {
     display: block;
