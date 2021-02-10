@@ -14,14 +14,17 @@ $title = "Sotish";
         <div class="filtrebtn">
             <br><br><br><br><br>
 
-
-            <button class="servicebtn">SERVICE</button>
+            <div class="servicebtn">
+                <button id="service">SERVICE</button>
+            </div>
             <br>
-            <button>LOCATION</button>
+            <div class="locationbtn">
+                <button id="loc">LOCATION</button>
+            </div>
         </div>
         <div class="annonce">
 
-            <button id="btnannonce">Annonce</button>
+            <button id="btnannonce">Publier</button>
 
         </div>
 

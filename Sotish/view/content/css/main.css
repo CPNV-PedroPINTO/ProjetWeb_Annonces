@@ -349,25 +349,52 @@ iframe {
     margin-top: -5%;
     position: fixed;
     width: 10%;
-    height: 55%;
+    height: 51%;
     background-color: #fcf7f7;
     border: 1px solid #282727;
     border-radius: 1px 1px 4px 1px;
     box-shadow: 3px 2px 8px black;
 }
-.filtrebtn{
+
+.filtrebtn {
     margin-left: 5%;
+    height: 10%;
+
 
 }
-servicebtn{
-    background-color: white;
+
+.servicebtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px;
 }
-.annonce{
-    margin-top: 170%;
+
+#service{
+    margin-left: 5%;
+}
+
+.locationbtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px;
+}
+#loc{
+    margin-left: 5%;
+}
+
+.annonce {
+    margin-top: 200%;
+    margin-left: 9%;
     text-align: center;
+    background-color: #f5345d;
+    width: 80%;
 }
 
-.footer{
+#btnannonce {
+    color: white;
+}
+
+.footer {
     position: relative;
 }
 
@@ -688,7 +715,7 @@ servicebtn{
 -----------------------------------------------------------*/
 .main_menu {
     list-style-type: none;
-    margin-top: -45%;
+    margin-top: -46%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -700,7 +727,7 @@ servicebtn{
 }
 
 .wrap_menu {
-    margin-left: 83%;
+    margin-left: 81%;
 
 }
 
