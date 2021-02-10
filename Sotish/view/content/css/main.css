@@ -345,21 +345,26 @@ iframe {
     }
 }
 
-.filtre {
+.button {
     margin-top: -5%;
     position: fixed;
     width: 10%;
-    height: 60%;
-    background-color: grey;
+    height: 55%;
+    background-color: #fcf7f7;
+    border: 1px solid #282727;
+    border-radius: 1px 1px 4px 1px;
+    box-shadow: 3px 2px 8px black;
 }
 .filtrebtn{
     margin-left: 5%;
+
 }
 servicebtn{
     background-color: white;
 }
 .annonce{
     margin-top: 170%;
+    text-align: center;
 }
 
 .footer{

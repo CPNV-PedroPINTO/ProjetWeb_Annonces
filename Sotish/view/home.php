@@ -8,9 +8,9 @@
  */
 
 ob_start();
-$title = "SnowPoint . Accueil";
+$title = "Sotish";
 ?>
-    <section class="filtre">
+    <section class="button">
         <div class="filtrebtn">
             <br><br><br><br><br>
 
@@ -21,12 +21,11 @@ $title = "SnowPoint . Accueil";
         </div>
         <div class="annonce">
 
-            <button>Annonce</button>
+            <button id="btnannonce">Annonce</button>
 
         </div>
 
     </section>
-
 
     <!-- Banner -->
     <section class="banner bgwhite p-t-40 p-b-40">
