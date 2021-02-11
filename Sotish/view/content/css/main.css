@@ -369,7 +369,7 @@ iframe {
     box-shadow: 5px 1px 10px;
 }
 
-#service{
+#service {
     margin-left: 5%;
 }
 
@@ -378,7 +378,8 @@ iframe {
     width: 80%;
     box-shadow: 5px 1px 10px;
 }
-#loc{
+
+#loc {
     margin-left: 5%;
 }
 
@@ -679,7 +680,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -698,24 +699,20 @@ iframe {
 /*[ Logo ]
 -----------------------------------------------------------*/
 .logo {
-    margin-top: -0.5%;
-    margin-right: 96%;
-
+    width: 60px;
+    position: fixed;
 }
 
 .logo img {
     height: 100px;
 }
 
-.poulpe {
-    position: fixed;
-}
 
 /*[ Menu ]
 -----------------------------------------------------------*/
 .main_menu {
     list-style-type: none;
-    margin-top: -46%;
+    margin-top: 0px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -727,12 +724,13 @@ iframe {
 }
 
 .wrap_menu {
-    margin-left: 81%;
+    margin-left: 85%;
 
 }
 
 
 .main_menu > li {
+
     display: block;
     position: relative;
     padding-top: 20px;
@@ -1970,7 +1968,7 @@ li.sale-noti > a {
 /*[ rs NoUI ]
 ///////////////////////////////////////////////////////////
 */
-.leftbar #filter-bar {
+.leftbar #fiter-bar {
     margin-right: 6px;
     margin-left: 6px;
     height: 4px;

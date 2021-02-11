@@ -48,6 +48,8 @@
     "tex
 </head>
 <body class="animsition">
+<!-- Logo -->
+
 <!-- Header -->
 <header class="header1">
     <!-- Header desktop -->
@@ -66,14 +68,16 @@
         </div>
 
         <div class="wrap_header">
-            <!-- Logo -->
-            <a href="index.php" class="logo">
-                <img src="view/content/images/icons/logo.png" alt="IMG-LOGO">
-            </a>
+
 
             <!-- Menu -->
             <div class="wrap_menu">
                 <nav class="menu">
+                    <div class="logo">
+                        <a href="index.php" class="logo">
+                            <img src="view/content/images/icons/logo.png" class="logo" alt="IMG-LOGO" width="60px">
+                        </a>
+                    </div>
                     <ul class="main_menu">
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
                             <li>
