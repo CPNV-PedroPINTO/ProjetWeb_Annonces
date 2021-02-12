@@ -699,12 +699,19 @@ iframe {
 /*[ Logo ]
 -----------------------------------------------------------*/
 .logo {
-    width: 60px;
     position: fixed;
+    margin-right: 180%;
+    margin-top: -1%;
 }
 
 .logo img {
     height: 100px;
+}
+
+td{
+
+    height: 1000px;
+    width: 600px;
 }
 
 

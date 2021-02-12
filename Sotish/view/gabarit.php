@@ -73,12 +73,14 @@
             <!-- Menu -->
             <div class="wrap_menu">
                 <nav class="menu">
-                    <div class="logo">
-                        <a href="index.php" class="logo">
-                            <img src="view/content/images/icons/logo.png" class="logo" alt="IMG-LOGO" width="60px">
-                        </a>
-                    </div>
+
                     <ul class="main_menu">
+                        <div class="logo">
+                            <a href="index.php" class="logo">
+                                <img src="view/content/images/icons/favicon.png" class="logo" alt="IMG-LOGO"
+                                     width="80px">
+                            </a>
+                        </div>
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
                             <li>
                                 <a href="index.php?action=login">Login</a> / <a href="index.php?action=register">S'enregistrer</a>
@@ -326,13 +328,12 @@
                 </p>
 
                 <div class="flex-m p-t-30">
-                    <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+                    <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"
+                       target="_blank"></a>
                     <a href="https://www.instagram.com/anibis_ch/?hl=fr"
-                       class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-                    <a href="https://www.snapchat.com/add/supercuany"
-                       class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+                       class="fs-18 color1 p-r-20 fa fa-instagram" target="_blank"></a>
                     <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
-                       class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+                       class="fs-18 color1 p-r-20 fa fa-youtube-play" target="_blank"></a>
                 </div>
             </div>
         </div>
@@ -345,19 +346,19 @@
 
             <ul>
                 <li class="p-b-9">
-                    <a href="https://www.cpnv.ch" class="s-text7">
+                    <a href="https://www.cpnv.ch"  target="_blank" class="s-text7">
                         Formation
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="view/aboutUs.php" class="s-text7">
+                    <a href="view/aboutUs.php"  target="_blank" class="s-text7">
                         À propos de nous
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" class="s-text7">
+                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces"  target="_blank" class="s-text7">
                         Notre Github
                     </a>
                 </li>
