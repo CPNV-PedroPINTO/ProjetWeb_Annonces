@@ -18,6 +18,6 @@ $title = "Sotish";
 
 </head>
 <body>
-queue
+service
 </body>
 </html>
