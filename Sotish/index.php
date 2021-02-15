@@ -29,6 +29,9 @@ if (isset($_GET['action'])) {
         case 'service' :
             service();
             break;
+        case 'location':
+            location();
+            break;
         default :
             lost();
     }

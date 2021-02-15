@@ -26,3 +26,7 @@ function lost()
 function service(){
     require 'view/service.php';
 }
+
+function location(){
+    require 'view/location.php';
+}

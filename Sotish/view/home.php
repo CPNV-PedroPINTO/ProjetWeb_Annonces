@@ -19,7 +19,7 @@ $title = "Sotish";
             </div>
             <br>
             <div class="locationbtn">
-                <button id="loc">LOCATION</button>
+                <a href="index.php?action=location"><button id="loc">LOCATION</button></a>
             </div>
         </div>
         <div class="annonce">
