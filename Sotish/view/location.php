@@ -21,3 +21,6 @@ $title = "Sotish";
 location
 </body>
 </html>
+<?php
+$content = ob_get_clean();
+require "gabarit.php";
