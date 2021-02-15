@@ -384,18 +384,24 @@ iframe {
 }
 
 .annonce {
-    margin-top: 200%;
+    position: relative;
+    margin-top: 120px;
     margin-left: 9%;
     text-align: center;
-    background-color: #f5345d;
-    width: 80%;
 }
 
-#btnannonce {
+.annonce {
     color: white;
+    background-color: #f34444;
+    width: 160px;
+    border: 1px solid black;
+    border-radius: 6px;
 }
-.tablearticle
 
+
+.tablearticle {
+
+}
 
 
 .footer {
@@ -711,7 +717,7 @@ iframe {
     height: 100px;
 }
 
-td{
+td {
 
     height: 1000px;
     width: 600px;

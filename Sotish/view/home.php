@@ -11,6 +11,11 @@ ob_start();
 $title = "Sotish";
 ?>
     <section class="button">
+        <div class="annonce">
+
+            <button class="btnannonce">Publier</button>
+
+        </div>
         <div class="filtrebtn">
             <br><br><br><br><br>
 
@@ -26,11 +31,7 @@ $title = "Sotish";
                 </a>
             </div>
         </div>
-        <div class="annonce">
 
-            <button id="btnannonce">Publier</button>
-
-        </div>
 
     </section>
 
@@ -118,7 +119,6 @@ $title = "Sotish";
 
 
     <!-- Banner -->
-
 
 
 <?php
