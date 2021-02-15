@@ -345,6 +345,69 @@ iframe {
     }
 }
 
+.button {
+    margin-top: -5%;
+    position: fixed;
+    width: 10%;
+    height: 51%;
+    background-color: #fcf7f7;
+    border: 1px solid #282727;
+    border-radius: 1px 1px 4px 1px;
+    box-shadow: 3px 2px 8px black;
+}
+
+.filtrebtn {
+    margin-left: 5%;
+    height: 10%;
+
+
+}
+
+.servicebtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px;
+}
+
+#service {
+    margin-left: 5%;
+}
+
+.locationbtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px;
+}
+
+#loc {
+    margin-left: 5%;
+}
+
+.annonce {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 9%;
+    text-align: center;
+}
+
+.annonce {
+    color: white;
+    background-color: #f34444;
+    width: 160px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+.tablearticle {
+
+}
+
+
+.footer {
+    position: relative;
+}
+
 /*[ Restyle Select2 ]
 ///////////////////////////////////////////////////////////
 */
@@ -626,7 +689,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -645,13 +708,19 @@ iframe {
 /*[ Logo ]
 -----------------------------------------------------------*/
 .logo {
-    margin-top: -0.5%;
-    margin-right: 92%;
-
+    position: fixed;
+    margin-right: 180%;
+    margin-top: -1%;
 }
 
 .logo img {
     height: 100px;
+}
+
+td {
+
+    height: 1000px;
+    width: 600px;
 }
 
 
@@ -659,7 +728,7 @@ iframe {
 -----------------------------------------------------------*/
 .main_menu {
     list-style-type: none;
-    margin-top: -5%;
+    margin-top: 0px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -669,13 +738,15 @@ iframe {
     align-items: center;
     justify-content: center;
 }
-.wrap_menu{
-    margin-left: 83%;
+
+.wrap_menu {
+    margin-left: 85%;
 
 }
 
 
 .main_menu > li {
+
     display: block;
     position: relative;
     padding-top: 20px;
@@ -1913,7 +1984,7 @@ li.sale-noti > a {
 /*[ rs NoUI ]
 ///////////////////////////////////////////////////////////
 */
-.leftbar #filter-bar {
+.leftbar #fiter-bar {
     margin-right: 6px;
     margin-left: 6px;
     height: 4px;
