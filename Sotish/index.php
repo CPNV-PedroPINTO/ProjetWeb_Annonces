@@ -14,7 +14,7 @@ require "controller/users.php";
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
     switch ($action) {
-         case 'home' :
+        case 'home' :
             home();
             break;
         case 'login' :
@@ -25,6 +25,9 @@ if (isset($_GET['action'])) {
             break;
         case 'register' :
             register($_POST);
+            break;
+        case 'service' :
+            service();
             break;
         default :
             lost();

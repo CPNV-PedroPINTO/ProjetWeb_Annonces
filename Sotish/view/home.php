@@ -15,7 +15,7 @@ $title = "Sotish";
             <br><br><br><br><br>
 
             <div class="servicebtn">
-                <a href="Service.php"><button id="service">SERVICE</button></a>
+                <a href="index.php?action=service"><button id="service">SERVICE</button></a>
             </div>
             <br>
             <div class="locationbtn">

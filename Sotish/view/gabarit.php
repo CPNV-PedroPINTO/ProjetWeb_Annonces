@@ -78,7 +78,7 @@
                         <div class="logo">
                             <a href="index.php" class="logo">
                                 <img src="view/content/images/icons/favicon.png" class="logo" alt="IMG-LOGO"
-                                     width="80px">
+                                     width="90px">
                             </a>
                         </div>
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>

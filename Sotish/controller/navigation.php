@@ -22,3 +22,7 @@ function lost()
 {
     require "view/lost.php";
 }
+
+function service(){
+    require 'view/service.php';
+}
