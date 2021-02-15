@@ -94,6 +94,7 @@
                             <li>
                                 <a href="index.php?action=logout">Logout</a>
                             </li>
+
                         <?php endif; ?>
 
 
@@ -114,41 +115,6 @@
                 <?php endif; ?>
 
 
-                <div class="header-wrapicon2">
-
-                    <!-- Header cart noti -->
-                    <div class="header-cart header-dropdown">
-                        <?php if (isset($_SESSION['cart'])): ?>
-                            <ul class="header-cart-wrapitem">
-                                <?php foreach ($_SESSION['cart']->GetItems() as $cartItem) : ?>
-                                    <li class="header-cart-item">
-                                        <div class="header-cart-item-img">
-                                            <img src="<?= $cartItem->GetImgPath(); ?>"
-                                                 alt="<?= $cartItem->GetArticleId(); ?>" alt="IMG-PRODUCT">
-                                        </div>
-
-                                        <div class="header-cart-item-txt">
-                                            <a href="#" class="header-cart-item-name">
-                                                <?= $cartItem->GetQuantity() . "x " . $cartItem->GetArticleId(); ?>
-                                            </a>
-
-                                            <span class="header-cart-item-info">
-                                                <?= $cartItem->GetPrice(); ?> .00 CHF
-                                            </span>
-                                        </div>
-                                    </li>
-                                <?php endforeach ?>
-                            </ul>
-                            <div class="header-cart-total">
-                                Total: <?= $_SESSION['cart']->GetTotalPrice(); ?> .00 CHF
-                            </div>
-
-                        <?php else : ?>
-                            <a href="index.php?action=displayArticles"
-                               class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">Go Shopping !</a>
-                        <?php endif; ?>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -255,62 +221,11 @@
         </div>
     </div>
 
-    <!-- Menu Mobile -->
-    <div class="wrap-side-menu">
-        <nav class="side-menu">
-            <ul class="main-menu">
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-						<span class="topbar-child1">
-							Livraison gratuite dès 200.-
-						</span>
-                </li>
-
-                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
-                    <div class="topbar-child2-mobile">
-                        <span class="topbar-email">
-                            <?php if (isset($_SESSION['userEmailAddress'])) : ?>
-                                <?= $_SESSION['userEmailAddress']; ?>
-                            <?php endif; ?>
-                    	</span>
-                    </div>
-                </li>
-
-                <li class="item-topbar-mobile p-l-10">
-                    <div class="topbar-social-mobile">
-                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
-                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    </div>
-                </li>
-
-                <li class="item-menu-mobile">
-                    <a href="index.php">Accueil</a>
-                </li>
-
-                <li class="item-menu-mobile">
-                    <a href="index.php?action=displayArticles">Nos snows</a>
-                </li>
-
-                <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                    <li class="item-menu-mobile">
-                        <a href="index.php?action=login">Login</a>
-                    </li>
-                    <li class="item-menu-mobile">
-                        <a href="index.php?action=register">S'enregistrer</a>
-                    </li>
-                <?php else : ?>
-                    <li class="item-menu-mobile">
-                        <a href="index.php?action=logout">Logout</a>
-                    </li>
-                <?php endif; ?>
-            </ul>
-        </nav>
-    </div>
 </header>
 
-<?= $content; ?>
+<?=
+$content;
+?>
 
 
 <!-- Footer -->

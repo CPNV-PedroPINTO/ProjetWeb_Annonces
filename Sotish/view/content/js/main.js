@@ -202,3 +202,14 @@
     });
 
 })(jQuery);
+
+
+function addLigne(){
+    if (nameAd.value === !nameAd){
+        alert("Veuillez rentrer les valleurs manquantes")
+
+
+    }
+
+
+}

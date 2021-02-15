@@ -32,6 +32,9 @@ if (isset($_GET['action'])) {
         case 'location':
             location();
             break;
+        case 'createAd' :
+            createAd();
+            break;
         default :
             lost();
     }

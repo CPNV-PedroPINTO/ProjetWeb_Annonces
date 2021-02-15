@@ -30,3 +30,7 @@ function service(){
 function location(){
     require 'view/location.php';
 }
+
+function createAd(){
+    require "view/createAd.php";
+}

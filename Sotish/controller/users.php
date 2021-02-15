@@ -6,7 +6,7 @@
  * @author    Created by Pascal.BENZONANA
  * @author    Updated by Nicolas.GLASSEY
  * @version   13-APR-2020
-*/
+ */
 
 
 /**
@@ -69,30 +69,32 @@ function register($registerRequest)
 {
     try {
         //variable set
-        if (isset($registerRequest['inputUserEmailAddress']) && isset($registerRequest['inputUserPsw']) && isset($registerRequest['inputUserPswRepeat'])) {
+        if (isset($registerRequest['registerInputUserEmailAddress']) && isset($registerRequest['registerPassword']) && isset($registerRequest['registerVerifyPassword'])) {
 
             //extract register parameters
-            $userEmailAddress = $registerRequest['inputUserEmailAddress'];
-            $userPsw = $registerRequest['inputUserPsw'];
-            $userPswRepeat = $registerRequest['inputUserPswRepeat'];
+            $userEmailAddress = $registerRequest['registerInputUserEmailAddress'];
+            $userPsw = $registerRequest['registerPassword'];
+            $userPswRepeat = $registerRequest['registerVerifyPassword'];
+
+
 
             if ($userPsw == $userPswRepeat) {
                 require_once "model/usersManager.php";
                 if (registerNewAccount($userEmailAddress, $userPsw)) {
                     createSession($userEmailAddress);
-                    $registerErrorMessage = null;
+                    $_GET['registerError'] = false;
+                    $_GET['action'] = "home";
                     require "view/home.php";
-                } else {
-                    $registerErrorMessage = "L'inscription n'est pas possible avec les valeurs saisies !";
+                } else { //Cas requête refusée (email existant)
+                    $_GET['registerError'] = true;
+                    $_GET['action'] = "register";
                     require "view/register.php";
                 }
-            } else {
-                $registerErrorMessage = "Les mots de passe ne sont pas similaires !";
-                require "view/register.php";
             }
         } else {
             $registerErrorMessage = null;
             require "view/register.php";
+
         }
     } catch (ModelDataBaseException $ex) {
         $registerErrorMessage = "Nous rencontrons actuellement un problème technique. Il est temporairement impossible de s'enregistrer. Désolé du dérangement !";

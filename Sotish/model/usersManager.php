@@ -47,8 +47,8 @@ function registerNewAccount($userEmailAddress, $userPsw)
 
 //  hash password and create an array to add in JSON file
     $userHashPsw = password_hash($userPsw, PASSWORD_DEFAULT);
-    $data2add = array('email' =>$userEmailAddress, 'hashPwd' => $userHashPsw, 'userType' =>'1');
 
+    $data2add = array('email' =>$userEmailAddress, 'hashPwd' => $userHashPsw, 'userType' =>'1');
     $file = "model/data/users.json";
 
 //open or read json data
