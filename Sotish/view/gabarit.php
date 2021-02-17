@@ -121,11 +121,6 @@
 
     <!-- Header Mobile -->
     <div class="wrap_header_mobile">
-        <!-- Logo moblie -->
-        <a href="index.php" class="logo-mobile">
-            <img src="view/content/images/icons/logo.png" alt="IMG-LOGO">
-        </a>
-
         <!-- Button show menu -->
         <div class="btn-show-menu">
             <!-- Header Icon mobile -->
@@ -261,19 +256,19 @@ $content;
 
             <ul>
                 <li class="p-b-9">
-                    <a href="https://www.cpnv.ch"  target="_blank" class="s-text7">
+                    <a href="https://www.cpnv.ch" target="_blank" class="s-text7">
                         Formation
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="view/aboutUs.php"  target="_blank" class="s-text7">
+                    <a href="view/aboutUs.php" target="_blank" class="s-text7">
                         À propos de nous
                     </a>
                 </li>
 
                 <li class="p-b-9">
-                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces"  target="_blank" class="s-text7">
+                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" target="_blank" class="s-text7">
                         Notre Github
                     </a>
                 </li>
