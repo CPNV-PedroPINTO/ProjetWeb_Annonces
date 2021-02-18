@@ -1681,7 +1681,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   height: calc(2.3125rem + 2px);
 }
 
-.form-group {
+. form-group {
   margin-bottom: 1rem;
 }
 

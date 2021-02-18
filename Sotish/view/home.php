@@ -13,7 +13,9 @@ $title = "Sotish";
     <section class="button">
         <div class="annonce">
 
-            <button class="btnannonce">Publier</button>
+            <a href="?action=createAd">
+                <button class="btnannonce">Publier</button>
+            </a>
 
         </div>
         <div class="filtrebtn">
@@ -122,5 +124,6 @@ $title = "Sotish";
 
 
 <?php
+
 $content = ob_get_clean();
 require "gabarit.php";
