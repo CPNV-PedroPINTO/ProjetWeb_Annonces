@@ -368,12 +368,22 @@ iframe {
     width: 80%;
     box-shadow: 5px 1px 10px;
 }
+.servicebtn:hover{
+    background-color: #8d8a8a;
 
+
+}
 #service {
     margin-left: 5%;
 }
 
 .locationbtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px;
+}
+
+.ventebtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px;
@@ -727,11 +737,6 @@ iframe {
     height: 100px;
 }
 
-td {
-
-    height: 1000px;
-    width: 600px;
-}
 
 
 /*[ Menu ]
@@ -2491,3 +2496,16 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 
+
+
+.Mytable{
+    width: 2700px;
+    height: 400px;
+    margin-left: 330px;
+}
+
+.TableCell{
+    height: 400px;
+    width: 400px;
+    color: #00adef;
+}

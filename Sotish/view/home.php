@@ -18,6 +18,9 @@ $title = "Sotish";
             </a>
 
         </div>
+        <div class="test">
+        <button class="btn btn-primary" onclick="appendColumn()">Create</button>
+        </div>
         <div class="filtrebtn">
             <br><br><br><br><br>
 
@@ -31,6 +34,13 @@ $title = "Sotish";
                 <a href="index.php?action=location">
                     <button id="loc">LOCATION</button>
                 </a>
+                <br>
+            </div>
+            <br>
+            <div class="ventebtn">
+                <a href="index.php?action=location">
+                    <button id="loc">VENTE</button>
+                </a>
             </div>
         </div>
 
@@ -38,86 +48,15 @@ $title = "Sotish";
     </section>
 
 
-    <table>
-
-        <thead class="banner bgwhite p-t-40 p-b-40">
-        <tr class="row">
-            <th class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                <div class="block1 hov-img-zoom pos-relative m-b-30">
-                    <img src="view/content/images/men_snows/B101_banner.png" alt="IMG-BANNER">
-
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button -->
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Burton
-                        </a>
-                    </div>
-                </div>
-            </th>
+    <table id="Mytable" border="2px" class="Mytable">
+        <tr >
+            <td>Row0 cell0</td>
         </tr>
-        <tr class="row">
-            <th class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                <div class="block1 hov-img-zoom pos-relative m-b-30">
-                    <img src="view/content/images/men_snows/banner_P622.png" alt="IMG-BANNER">
-
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button -->
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Prior
-                        </a>
-                    </div>
-                </div
-            </th>
+        <tr >
+            <td>Row1 cell0</td>
         </tr>
-        <tr class="row">
-            <th class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                <div class="block1 hov-img-zoom pos-relative m-b-30">
-                    <img src="view/content/images/men_snows/banner_R787.png" alt="IMG-BANNER">
-
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button -->
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Rossignol
-                        </a>
-                    </div>
-                </div>
-            </th>
-        </tr>
-        <tr class="row">
-            <th class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                <div class="block1 hov-img-zoom pos-relative m-b-30">
-                    <img src="view/content/images/men_snows/banner_K409.png" alt="IMG-BANNER">
-
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button -->
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            K2
-                        </a>
-                    </div>
-                </div>
-            </th>
-        </tr>
-
-        <tr class="row">
-            <th class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                <div class="block1 hov-img-zoom pos-relative m-b-30">
-                    <img src="view/content/images/men_snows/banner_R787.png" alt="IMG-BANNER">
-
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button -->
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Rossignol
-                        </a>
-                    </div>
-                </div>
-            </th>
-        </tr>
-
-
-        </thead>
-
-
     </table>
+    <br>
 
 
     <!-- Banner -->
