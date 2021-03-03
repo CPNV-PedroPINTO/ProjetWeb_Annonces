@@ -35,9 +35,6 @@ if (isset($_GET['action'])) {
         case 'createAd' :
             createAd();
             break;
-        case 'submitAdd':
-            submitAdd($_POST);
-            break;
         default :
             lost();
     }

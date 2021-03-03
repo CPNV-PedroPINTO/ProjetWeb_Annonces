@@ -64,5 +64,3 @@ function registerNewAccount($userEmailAddress, $userPsw)
 //    json_encode($data);
     return true;
 }
-
-

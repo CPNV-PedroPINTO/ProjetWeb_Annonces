@@ -26,20 +26,20 @@ $title = "Sotish";
 
             <div class="servicebtn">
                 <a href="index.php?action=service">
-                    <button id="service">SERVICES</button>
+                    <button id="service">SERVICE</button>
                 </a>
             </div>
             <br>
             <div class="locationbtn">
                 <a href="index.php?action=location">
-                    <button id="loc">LOCATIONS</button>
+                    <button id="loc">LOCATION</button>
                 </a>
                 <br>
             </div>
             <br>
             <div class="ventebtn">
                 <a href="index.php?action=location">
-                    <button id="loc">VENTES</button>
+                    <button id="loc">VENTE</button>
                 </a>
             </div>
         </div>

@@ -23,25 +23,14 @@ function lost()
     require "view/lost.php";
 }
 
-function service()
-{
+function service(){
     require 'view/service.php';
 }
 
-function location()
-{
+function location(){
     require 'view/location.php';
 }
 
-function createAd()
-{
-
+function createAd(){
     require "view/createAd.php";
-}
-
-function submitAdd($addInfo){
-
-    require_once("model/addsManager.php.php");
-
-    getAdds($addInfo);
 }
