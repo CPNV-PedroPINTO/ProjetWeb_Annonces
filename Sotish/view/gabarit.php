@@ -39,23 +39,19 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/vendor/slick/slick.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="view/content/vendor/lightbox2/css/lightbox.min.css">
+
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/css/util.css">
     <link rel="stylesheet" type="text/css" href="view/content/css/main.css">
     <!--===============================================================================================-->
-    <link rel="script" type
-    "tex
 </head>
 <body class="animsition">
-<!-- Logo -->
 
 <!-- Header -->
 <header class="header1">
     <!-- Header desktop -->
     <div class="container-menu-header">
         <div class="topbar">
-
 
             <div class="topbar-child2">
 
@@ -68,7 +64,6 @@
         </div>
 
         <div class="wrap_header">
-
 
             <!-- Menu -->
             <div class="wrap_menu">
@@ -86,19 +81,13 @@
                                 <a href="index.php?action=login">Login</a> / <a href="index.php?action=register">S'enregistrer</a>
                             </li>
                         <?php else : ?>
-                            <?php if (isset($_SESSION['userType'])) : ?>
-                                <li>
-                                    <a href="index.php?action=articlesAdmin">Gestion</a>
-                                </li>
-                            <?php endif; ?>
                             <li>
                                 <a href="index.php?action=logout">Logout</a>
                             </li>
-
                         <?php endif; ?>
 
 
-                        </li>
+
                     </ul>
                 </nav>
             </div>
@@ -119,104 +108,6 @@
         </div>
     </div>
 
-    <!-- Header Mobile -->
-    <div class="wrap_header_mobile">
-        <!-- Button show menu -->
-        <div class="btn-show-menu">
-            <!-- Header Icon mobile -->
-            <div class="header-icons-mobile">
-
-                <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                    <a href="index.php?action=login" class="header-wrapicon1 dis-block">
-                        <img src="view/content/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-                    </a>
-                <?php else : ?>
-                    <a href="index.php?action=logout" class="header-wrapicon1 dis-block">
-                        <img src="view/content/images/icons/icon-header-01-log.png" class="header-icon1" alt="ICON">
-                    </a>
-                <?php endif; ?>
-
-                <span class="linedivide2"></span>
-
-                <div class="header-wrapicon2">
-                    <img src="view/content/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown"
-                         alt="ICON  ">
-                    <span class="header-icons-noti">0</span>
-
-                    <!-- Header cart noti -->
-                    <div class="header-cart header-dropdown">
-                        <ul class="header-cart-wrapitem">
-                            <li class="header-cart-item">
-                                <div class="header-cart-item-img">
-                                    <img src="view/content/images/item-cart-01.jpg" alt="IMG">
-                                </div>
-
-                                <div class="header-cart-item-txt">
-                                    <a href="#" class="header-cart-item-name">
-                                        White Shirt With Pleat Detail Back
-                                    </a>
-
-                                    <span class="header-cart-item-info">
-											1 x $19.00
-										</span>
-                                </div>
-                            </li>
-
-                            <li class="header-cart-item">
-                                <div class="header-cart-item-img">
-                                    <img src="view/content/images/item-cart-02.jpg" alt="IMG">
-                                </div>
-
-                                <div class="header-cart-item-txt">
-                                    <a href="#" class="header-cart-item-name">
-                                        Converse All Star Hi Black Canvas
-                                    </a>
-
-                                    <span class="header-cart-item-info">
-											1 x $39.00
-										</span>
-                                </div>
-                            </li>
-
-                            <li class="header-cart-item">
-                                <div class="header-cart-item-img">
-                                    <img src="view/content/images/item-cart-03.jpg" alt="IMG">
-                                </div>
-
-                                <div class="header-cart-item-txt">
-                                    <a href="#" class="header-cart-item-name">
-                                        Nixon Porter Leather Watch In Tan
-                                    </a>
-
-                                    <span class="header-cart-item-info">
-											1 x $17.00
-										</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <div class="header-cart-total">
-                            Total: $75.00
-                        </div>
-
-                        <div class="header-cart-buttons">
-                            <div class="header-cart-wrapbtn">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-            </div>
-        </div>
-    </div>
-
-</header>
 
 <?=
 $content;
@@ -224,7 +115,7 @@ $content;
 
 
 <!-- Footer -->
-<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45 footer">
+<footer class="footer">
     <div class="flex-w p-b-90">
         <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
             <h4 class="s-text12 p-b-30">
