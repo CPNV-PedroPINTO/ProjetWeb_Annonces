@@ -31,6 +31,12 @@ function location(){
     require 'view/location.php';
 }
 
+function vente(){
+    require 'view/vente.php';
+}
+
+
+
 function createAd(){
     require "view/createAd.php";
 }
