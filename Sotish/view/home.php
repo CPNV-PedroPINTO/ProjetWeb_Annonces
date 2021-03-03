@@ -48,21 +48,6 @@ $title = "Sotish";
     </section>
 
 
-    <table id="Mytable" border="2px" class="Mytable">
-        <tr >
-            <td>Row0 cell0</td>
-        </tr>
-        <tr >
-            <td>Row1 cell0</td>
-        </tr>
-    </table>
-    <br>
-
-
-    <!-- Banner -->
-
-
 <?php
-
 $content = ob_get_clean();
 require "gabarit.php";
