@@ -4,8 +4,6 @@ function getAdds($addsValues){
     $addName = $addsValues['addName'];
     $addType = $addsValues['addType'];
     $addPrice = $addsValues['$addPrice'];
-
-
 }
 
 
