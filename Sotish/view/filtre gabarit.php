@@ -10,6 +10,10 @@
 ob_start();
 $title = "Sotish";
 ?>
+    <html lang="a">
+    <head>
+</head>
+    <body>
     <section class="button">
         <div class="annonce">
 
@@ -18,35 +22,30 @@ $title = "Sotish";
             </a>
 
         </div>
-        <div class="test">
-        <button class="btn btn-primary" onclick="appendColumn()">Create</button>
-        </div>
         <div class="filtrebtn">
-            <br><br><br><br><br>
 
             <div class="servicebtn">
                 <a href="index.php?action=service">
-                    <button id="service">SERVICES</button>
+                    <button id="service">SERVICE</button>
                 </a>
             </div>
             <br>
             <div class="locationbtn">
                 <a href="index.php?action=location">
-                    <button id="loc">LOCATIONS</button>
+                    <button id="loc">LOCATION</button>
                 </a>
                 <br>
             </div>
             <br>
             <div class="ventebtn">
-                <a href="index.php?action=location">
-                    <button id="loc">VENTES</button>
+                <a href="index.php?action=vente">
+                    <button id="loc">VENTE</button>
                 </a>
             </div>
         </div>
-
-
     </section>
-
+    </body>
+    </html>
 
 <?php
 $content = ob_get_clean();

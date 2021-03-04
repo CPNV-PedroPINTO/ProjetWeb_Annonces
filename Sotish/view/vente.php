@@ -10,17 +10,17 @@
 ob_start();
 $title = "Sotish";
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <title><?= $title; ?></title>
-    <meta charset="UTF-8">
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <title><?= $title; ?></title>
+        <meta charset="UTF-8">
 
-</head>
-<body>
-location
-</body>
-</html>
+    </head>
+    <body>
+Vente
+    </body>
+    </html>
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
