@@ -16,15 +16,11 @@ ob_start();
     <h5><span style="color:red"><?= $loginErrorMessage; ?></span></h5>
 <?php endif ?>
 
-    <!-- Title Page -->
-    <section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(view/content/images/home_slide_2.jpg);">
+    <!-- content page -->
+    <section class="bgwhite p-t-66 p-b-60">
         <h2 class="l-text2 t-center" style="color: black">
             Login
         </h2>
-    </section>
-
-    <!-- content page -->
-    <section class="bgwhite p-t-66 p-b-60">
         <div class="container">
             <div class="row">
 
@@ -42,7 +38,7 @@ ob_start();
                             <input class="sizefull s-text7 p-l-22 p-r-22" type="password" name="inputUserPsw" placeholder="Mot de passe">
                         </div class="md-12">
                             <input type="submit" value="login" class="flex-c-m size10 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                        <br>Pas de compte ? Inscrivez-vous
+                        <br>Pas de compte ? <a href="../index.php?action=register">Inscrivez-vous</a>
                         </div>
                     </form>
                 </div>
