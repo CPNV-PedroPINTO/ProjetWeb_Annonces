@@ -24,8 +24,8 @@
     <link rel="stylesheet" type="text/css" href="view/content/fonts/themify/themify-icons.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="view/content/fonts/elegant-font/html-css/style.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="view/content/fonts/elegant-font/html-css/style.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/vendor/animate/animate.css">
     <!--===============================================================================================-->

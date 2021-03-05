@@ -39,9 +39,15 @@ function createAd()
     require "view/createAd.php";
 }
 
-function submitAdd($addInfo){
+function vente()
+{
+    require "view/vente.php";
+}
 
-    require_once("model/addsManager.php.php");
+function submitAdd($addInfo)
+{
+
+    require_once("model/addsManager.php");
 
     getAdds($addInfo);
 }

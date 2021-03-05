@@ -19,31 +19,31 @@ $title = "Sotish";
 
         </div>
         <div class="test">
-        <button class="btn btn-primary" onclick="appendColumn()">Create</button>
+            <button class="btn btn-primary">Create</button>
         </div>
         <div class="filtrebtn">
-            <br><br><br><br><br>
 
-            <div class="servicebtn">
-                <a href="index.php?action=service">
-                    <button id="service">SERVICES</button>
-                </a>
-            </div>
-            <br>
-            <div class="locationbtn">
-                <a href="index.php?action=location">
-                    <button id="loc">LOCATIONS</button>
-                </a>
+            <div class="menuBtn">
+                <div class="servicebtn">
+                    <a href="index.php?action=service">
+                        <button id="service">SERVICES</button>
+                    </a>
+                </div>
                 <br>
-            </div>
-            <br>
-            <div class="ventebtn">
-                <a href="index.php?action=location">
-                    <button id="loc">VENTES</button>
-                </a>
+                <div class="locationbtn">
+                    <a href="index.php?action=location">
+                        <button id="loc">LOCATIONS</button>
+                    </a>
+                    <br>
+                </div>
+                <br>
+                <div class="ventebtn">
+                    <a href="index.php?action=vente">
+                        <button id="loc">VENTES</button>
+                    </a>
+                </div>
             </div>
         </div>
-
 
     </section>
 

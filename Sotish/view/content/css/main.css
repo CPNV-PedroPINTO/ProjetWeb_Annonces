@@ -229,6 +229,26 @@ button:hover {
     background-color: #8d8a8a
 }
 
+.locationbtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px
+}
+
+.locationbtn:hover {
+    background-color: #8d8a8a
+}
+
+.ventebtn {
+    background-color: #c4c1c1;
+    width: 80%;
+    box-shadow: 5px 1px 10px
+}
+
+.ventebtn:hover {
+    background-color: #8d8a8a
+}
+
 #service {
     margin-left: 5%
 }
@@ -928,4 +948,8 @@ button:hover {
 
 body {
     padding-right: 0 !important
+}
+
+.menuBtn{
+    margin-top: 50%;
 }
