@@ -96,7 +96,7 @@
             <div class="header-icons">
 
                 <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                    <a href="index.php?action=login" class="header-wrapicon1 dis-block">
+                    <a href="index.php?action=login" class="header-wrapicon1 dis-block logo">
                         <img src="view/content/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
                     </a>
                 <?php else : ?>

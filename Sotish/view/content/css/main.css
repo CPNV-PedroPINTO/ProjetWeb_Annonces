@@ -113,7 +113,7 @@ input:focus:-ms-input-placeholder {
 button {
     outline: 0 !important;
     border: none;
-    background: 0 0
+    background: 0 0;
 }
 
 button:hover {
@@ -204,19 +204,50 @@ button:hover {
 }
 
 .button {
-    margin-top: -5%;
-    position: fixed;
+    margin-top: 10%;
+    position: absolute;
     width: 10%;
-    height: 51%;
+    height: 350px;
     background-color: #fcf7f7;
     border: 1px solid #282727;
-    border-radius: 1px 1px 4px 1px;
-    box-shadow: 3px 2px 8px #000
+    border-radius: 1px 8px 8px 1px; /*  Haut Gauche ; Haut Droite ; Bas Gauche ; Bas Droite   */
+    box-shadow: 3px 1px 8px #000
 }
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.annonce {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 15%;
+    padding: 6px;
+    text-align: center
+}
+
+.annonce:hover {
+    background-color: #f17878;
+    }
+
+
+.annonce {
+    color: #fff;
+    background-color: #f34444;
+    width: 160px;
+    border: 1px solid #000;
+    border-radius: 6px
+}
+
 
 .filtrebtn {
     margin-left: 5%;
-    height: 10%
+    height: 10%;
+    margin-top: 30px;
+
 }
 
 .servicebtn {
@@ -269,20 +300,6 @@ button:hover {
     margin-left: 5%
 }
 
-.annonce {
-    position: relative;
-    margin-top: 50%;
-    margin-left: 9%;
-    text-align: center
-}
-
-.annonce {
-    color: #fff;
-    background-color: #f34444;
-    width: 160px;
-    border: 1px solid #000;
-    border-radius: 6px
-}
 
 .formyo {
     width: 500px
@@ -385,7 +402,13 @@ button:hover {
 .logo {
     position: fixed;
     margin-right: 180%;
-    margin-top: -1%
+    margin-top: -1%;
+    background-image: none;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: 5s;
 }
 
 .logo img {
@@ -950,6 +973,6 @@ body {
     padding-right: 0 !important
 }
 
-.menuBtn{
+.menuBtn {
     margin-top: 50%;
 }
