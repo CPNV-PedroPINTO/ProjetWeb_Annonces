@@ -24,8 +24,8 @@
     <link rel="stylesheet" type="text/css" href="view/content/fonts/themify/themify-icons.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="view/content/fonts/elegant-font/html-css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="view/content/fonts/elegant-font/html-css/style.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="view/content/vendor/animate/animate.css">
     <!--===============================================================================================-->
@@ -87,7 +87,6 @@
                         <?php endif; ?>
 
 
-
                     </ul>
                 </nav>
             </div>
@@ -109,103 +108,103 @@
     </div>
 
 
-<?=
-$content;
-?>
+    <?=
+    $content;
+    ?>
 
 
-<!-- Footer -->
-<footer class="footer">
-    <div class="flex-w p-b-90">
-        <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
-            <h4 class="s-text12 p-b-30">
-                UNE VISITE ?
-            </h4>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="flex-b p-b-10">
+            <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+                <h4 class="s-text12 p-b-30">
+                    UNE VISITE ?
+                </h4>
 
-            <div>
-                <p class="s-text7 w-size27">
-                    Venez à notre magasin<br>
-                    Rue de l'argent 12, 2704 Money <br>ou appelez-nous au (+41) 79 856 84 05
-                </p>
+                <div>
+                    <p class="s-text7 w-size27">
+                        Venez à notre magasin<br>
+                        Rue de l'argent 12, 2704 Money <br>ou appelez-nous au (+41) 79 856 84 05
+                    </p>
 
-                <div class="flex-m p-t-30">
-                    <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"
-                       target="_blank"></a>
-                    <a href="https://www.instagram.com/anibis_ch/?hl=fr"
-                       class="fs-18 color1 p-r-20 fa fa-instagram" target="_blank"></a>
-                    <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
-                       class="fs-18 color1 p-r-20 fa fa-youtube-play" target="_blank"></a>
+                    <div class="flex-m p-t-30">
+                        <a href="https://www.facebook.com/anibis.ch/" class="fs-18 color1 p-r-20 fa fa-facebook"
+                           target="_blank"></a>
+                        <a href="https://www.instagram.com/anibis_ch/?hl=fr"
+                           class="fs-18 color1 p-r-20 fa fa-instagram" target="_blank"></a>
+                        <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
+                           class="fs-18 color1 p-r-20 fa fa-youtube-play" target="_blank"></a>
+                    </div>
                 </div>
             </div>
+
+
+            <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                <h4 class="s-text12 p-b-30">
+                    Liens
+                </h4>
+
+                <ul>
+                    <li class="p-b-9">
+                        <a href="https://www.cpnv.ch" target="_blank" class="s-text7">
+                            Formation
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="view/aboutUs.php" target="_blank" class="s-text7">
+                            À propos de nous
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" target="_blank" class="s-text7">
+                            Notre Github
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
         </div>
 
-
-        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
-            <h4 class="s-text12 p-b-30">
-                Liens
-            </h4>
-
-            <ul>
-                <li class="p-b-9">
-                    <a href="https://www.cpnv.ch" target="_blank" class="s-text7">
-                        Formation
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="view/aboutUs.php" target="_blank" class="s-text7">
-                        À propos de nous
-                    </a>
-                </li>
-
-                <li class="p-b-9">
-                    <a href="https://github.com/PedroPINTODjDj/ProjetWeb_Annonces" target="_blank" class="s-text7">
-                        Notre Github
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-    </div>
-
-</footer>
+    </footer>
 
 
-<!-- Container Selection1 -->
-<div id="dropDownSelect1"></div>
+    <!-- Container Selection1 -->
+    <div id="dropDownSelect1"></div>
 
 
-<!-- SCRIPTS -->
+    <!-- SCRIPTS -->
 
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/bootstrap/js/popper.js"></script>
-<script type="text/javascript" src="view/content/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/select2/select2.min.js"></script>
-<script type="text/javascript">
-    $(".selection-1").select2({
-        minimumResultsForSearch: 20,
-        dropdownParent: $('#dropDownSelect1')
-    });
-</script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/slick/slick.min.js"></script>
-<script type="text/javascript" src="view/content/js/slick-custom.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/lightbox2/js/lightbox.min.js"></script>
-<!--===============================================================================================-->
-<script type="text/javascript" src="view/content/vendor/sweetalert/sweetalert.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="view/content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/select2/select2.min.js"></script>
+    <script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="view/content/js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="view/content/vendor/sweetalert/sweetalert.min.js"></script>
 
 
-<!--===============================================================================================-->
-<script src="view/content/js/main.js"></script>
+    <!--===============================================================================================-->
+    <script src="view/content/js/main.js"></script>
 
 </body>
 </html>
