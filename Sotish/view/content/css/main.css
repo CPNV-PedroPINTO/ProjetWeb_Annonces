@@ -976,3 +976,16 @@ body {
 .menuBtn {
     margin-top: 50%;
 }
+
+.liRegister{
+    margin-right: 5%;
+}
+
+h2{
+    margin-top: 5%;
+}
+
+.alreadyAccount{
+    float: right;
+    margin-top: -38%;
+}
