@@ -203,7 +203,7 @@ button:hover {
     }
 }
 
-.button {
+.sectionMenuLeft {
     margin-top: 10%;
     position: absolute;
     width: 10%;
@@ -221,25 +221,22 @@ hr {
     margin-top: 5px;
 }
 
-.annonce {
+.divBtnPublier {
     position: relative;
     margin-top: 7px;
-    margin-left: 15%;
+    margin-left: 6%;
     padding: 6px;
-    text-align: center
-}
-
-.annonce:hover {
-    background-color: #f17878;
-    }
-
-
-.annonce {
+    text-align: center;
     color: #fff;
     background-color: #f34444;
     width: 160px;
     border: 1px solid #000;
     border-radius: 6px
+
+}
+
+.divBtnPublier:hover {
+    background-color: #f17878;
 }
 
 
@@ -250,62 +247,65 @@ hr {
 
 }
 
-.servicebtn {
+.divServicesBtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
 
-.servicebtn:hover {
+.divServicesBtn:hover {
     background-color: #8d8a8a
 }
 
-.locationbtn {
+.divLocationBtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
 
-.locationbtn:hover {
+.divLocationBtn:hover {
     background-color: #8d8a8a
 }
 
-.ventebtn {
+.divVenteBtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
 
-.ventebtn:hover {
+.divVenteBtn:hover {
     background-color: #8d8a8a
 }
 
-#service {
+#btnServices {
     margin-left: 5%
 }
 
-.locationbtn {
+.divLocationBtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
 
-.ventebtn {
+.divVenteBtn {
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
 
-#loc {
+#btnLocations {
+    margin-left: 5%
+}
+#btnVentes {
     margin-left: 5%
 }
 
 
-.formyo {
+.formCreateAd {
     width: 500px
 }
 
-.testoe {
+.divFormCreateAd {
     margin-top: 5%;
     text-align: center;
     margin-left: 35%
@@ -406,7 +406,7 @@ hr {
     background-image: none;
 }
 
-.logo:hover{
+.logo:hover {
     transform: rotate(360deg);
     transition: 5s;
 }
@@ -977,15 +977,15 @@ body {
     margin-top: 50%;
 }
 
-.liRegister{
+.liRegister {
     margin-right: 5%;
 }
 
-h2{
+h2 {
     margin-top: 5%;
 }
 
-.alreadyAccount{
+.alreadyAccount {
     float: right;
     margin-top: -38%;
 }
