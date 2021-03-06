@@ -1,9 +1,21 @@
 Libraries:  
+
 Bootstrap CSS - v4.0.0 Classes CSS de bases
+
 Bootstrap JS - v4.0.0 Fonctions JS de bases
+
 Countdowntime JS –  Fonctions offrant la gestion de timers et de clocks
+
 Daterangepicker - v2.1.25 Ajoute des calendriers de de la gestion de dates 
+
 jQueryUI - v1.12.1 Libraire offrant plusieurs options de menus
+
 Lightbox - v2.9.0 Librairie comportant plusieurs classes et fonction propres à la gestion des images
+
 perfect-scrollbar - v1.1.0 Librairie permettant de créer et de gérer une scrollbar
+
 Sweetalert – Librairie donnent accès a un message de suces
+
+ElementFont - Contient enormement d'icones utilisables (http://localhost:63342/Sotish/view/content/fonts/elegant-font/html-css/index.html?_ijt=u0c6k5gjlcj33fpqhs9jii859l)
+
+https://ionicons.com/ contient le code pour une grosse galerie d'icones 
