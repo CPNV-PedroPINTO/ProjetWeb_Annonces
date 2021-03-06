@@ -77,9 +77,13 @@
                             </a>
                         </div>
                         <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                            <li>
-                                <a href="index.php?action=login">Login</a> / <a href="index.php?action=register">S'enregistrer</a>
-                            </li>
+                            <div class="btnLoginRegister">
+
+                                    <a href="index.php?action=login">Login</a>
+
+                                    <a href="index.php?action=register">S'enregistrer</a>
+
+                            </div>
                         <?php else : ?>
                             <li>
                                 <a href="index.php?action=logout">Logout</a>

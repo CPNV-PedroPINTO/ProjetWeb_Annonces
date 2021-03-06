@@ -29,23 +29,26 @@ ob_start();
                 <form class="form" action="index.php?action=register" method="post">
                     <div class="col-md-12"><br>
                         <label for="userEmail"><b>Adresse email</b></label><br><input type="email"
-                                                                                  placeholder="Email address"
-                                                                                  name="registerInputUserEmailAddress"
-                                                                                  required>
-                    </div><br>
+                                                                                      placeholder="Email address"
+                                                                                      name="registerInputUserEmailAddress"
+                                                                                      required>
+                    </div>
+                    <br>
                     <div class="col-md-12 p_star">
                         <label for="userPsw"><b>Mot de passe</b></label><br><input type="password"
-                                                                               id="password" name="registerPassword"
-                                                                               value=""
-                                                                               placeholder="Mot de passe">
-                    </div><br>
+                                                                                   id="password" name="registerPassword"
+                                                                                   value=""
+                                                                                   placeholder="Mot de passe">
+                    </div>
+                    <br>
                     <div class="col-md-12 p_star">
                         <label for="psw-repeat"><b>Vérifier le mot de passe</b></label><br><input type="password"
-                                                                                              id="password"
-                                                                                              name="registerVerifyPassword"
-                                                                                              value=""
-                                                                                              placeholder="Mot de passe (vérification)">
-                    </div><br>
+                                                                                                  id="password"
+                                                                                                  name="registerVerifyPassword"
+                                                                                                  value=""
+                                                                                                  placeholder="Mot de passe (vérification)">
+                    </div>
+                    <br>
                     <div class="col-md-12 form-group">
                         <div class="creat_account align-items-center">
                             En soumettant votre demande de compte, <br>vous validez les conditions générales
@@ -61,7 +64,7 @@ ob_start();
                 <div class="alreadyAccount">
                     <h2>Vous avez déjà un compte ?</h2>
                     <p>Dans ce cas, afin de retrouver vos données, <br>cliquez sur le lien qui suit :<br>
-                        <a href="index.php?action=register" class="tag_btn  ">Login</a>
+                        <a href="index.php?action=register" class="tag_btn">Login</a>
                 </div>
             </div>
 

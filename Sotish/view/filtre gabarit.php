@@ -10,19 +10,17 @@
 ob_start();
 $title = "Sotish";
 ?>
-    <html lang="a">
-    <head>
-    </head>
+    <html lang="en">
     <body>
     <section class="sectionMenuLeft">
         <div class="divBtnPublier">
 
             <a href="index.php?action=createAd">
-                <button class="btnAnnonce">Publier</button>
+                <button class="btnPublier">Publier</button>
             </a>
         </div>
         <hr>
-        <div class="filtrebtn">
+        <div class="divMenuLeft">
 
             <div class="divServicesBtn">
                 <a href="index.php?action=service">

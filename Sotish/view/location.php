@@ -18,7 +18,7 @@ $title = "Sotish";
 
 </head>
 <body>
-location
+<h2>Vous êtes bien sur la page location !</h2>
 </body>
 </html>
 <?php

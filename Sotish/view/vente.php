@@ -18,7 +18,7 @@ $title = "Sotish";
 
     </head>
     <body>
-<h1>Vente</h1>
+    <h2>Vous êtes bien sur la page Vente</h2>
     </body>
     </html>
 <?php

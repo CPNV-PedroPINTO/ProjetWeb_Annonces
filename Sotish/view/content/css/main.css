@@ -224,12 +224,12 @@ hr {
 .divBtnPublier {
     position: relative;
     margin-top: 7px;
-    margin-left: 6%;
     padding: 6px;
     text-align: center;
     color: #fff;
     background-color: #f34444;
     width: 160px;
+    margin-left: 1%;
     border: 1px solid #000;
     border-radius: 6px
 
@@ -240,7 +240,7 @@ hr {
 }
 
 
-.filtrebtn {
+.divMenuLeft {
     margin-left: 5%;
     height: 10%;
     margin-top: 30px;
@@ -982,10 +982,17 @@ body {
 }
 
 h2 {
-    margin-top: 5%;
+    margin-top: 8%;
+    text-align: center;
 }
 
 .alreadyAccount {
     float: right;
     margin-top: -38%;
+}
+.btnLoginRegister{
+    margin-right: 2%;
+}
+.sctLost{
+    text-align: center;
 }

@@ -18,12 +18,15 @@ ob_start();
     </section>
 
     <!-- content page -->
-    <section class="bgwhite p-t-66 p-b-60">
+    <section class="bgwhite p-t-66 p-b-60  sctLost">
         <div class="container">
-            <div class="row">
+            <div>
                 <h2 class="center">Oupsss... on vous a perdu en chemin ;(.</h2>
+                <br>
             </div>
+            <a href="index.php?action=home"> <button type="button" class="btn-primary btn">Retour</button></a>
         </div>
+
     </section>
 <?php
 $content = ob_get_clean();

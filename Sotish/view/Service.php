@@ -18,7 +18,7 @@ $title = "Sotish";
 
 </head>
 <body>
-service
+<h2>Vous êtes bien sur la page Service</h2>
 </body>
 </html>
 <?php

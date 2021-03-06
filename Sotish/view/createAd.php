@@ -43,15 +43,16 @@ $title = "Sotish";
         <div>
             <label for="addPrice">Prix de l'annonce</label>
             <input type="text" class="form-control border border-primary" id="addPrice"
-                   placeholder="100$" name="addPrice">
+                   placeholder="1800$" name="addPrice">
         </div>
         <br>
         <!-------Description of the advertisement input-------->
         <div>
             <label for="addDesc">Description</label>
-            <input type="text" class="form-control border border-primary" id="addDesc" name="addDesc">
+            <textarea class="form-control border border-primary" id="addDesc" name="addDesc" rows="3"
+                      placeholder="je vends une ps5 pas chère, 1800$..."></textarea>
         </div>
-
+        <br>
         <button type="submit" value="submitAdd" class="btn btn-primary">Submit</button>
     </form>
 </div>
