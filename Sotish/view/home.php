@@ -11,21 +11,7 @@ ob_start();
 $title = "Sotish";
 ?>
 
-
-<table>
-    <thead>
-    <th>
-        <tr>Yo</tr>
-sd
-
-    </th>
-
-
-    </thead>
-
-
-
-</table>
+<h1>Vous êtes bien sur la page Home</h1>
 
 <?php
 $content = ob_get_clean();
