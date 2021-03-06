@@ -22,14 +22,16 @@ $title = "Sotish";
 
 <div class="divFormCreateAd">
     <form class="form-group formCreateAd" method="POST" action="index.php?action=submitAdd">
+        <!-------Name of the advertisement input-------->
         <div>
             <label for="addName">Nom de l'annonce</label>
             <input type="text" class="form-control border border-primary" id="addName"
                    placeholder="Playstation 5" name="addName">
         </div>
         <br>
+        <!-------Type of the advertisement input-------->
         <div>
-            <label for="exampleFormControlSelect1">Type d'annonce</label>
+            <label for="addType">Type d'annonce</label>
             <select class="form-control border border-primary" id="addType" name="addType">
                 <option>Vente</option>
                 <option>Location</option>
@@ -37,21 +39,22 @@ $title = "Sotish";
             </select>
         </div>
         <br>
+        <!-------Price of the advertisement input-------->
         <div>
-            <label for="exampleInputPassword1">Prix de l'annonce</label>
+            <label for="addPrice">Prix de l'annonce</label>
             <input type="text" class="form-control border border-primary" id="addPrice"
                    placeholder="100$" name="addPrice">
         </div>
         <br>
+        <!-------Description of the advertisement input-------->
         <div>
-            <label for="exampleInputPassword1">Coordonées</label>
+            <label for="addDesc">Description</label>
             <input type="text" class="form-control border border-primary" id="addDesc" name="addDesc">
         </div>
 
         <button type="submit" value="submitAdd" class="btn btn-primary">Submit</button>
     </form>
 </div>
-
 
 </body>
 </html>
