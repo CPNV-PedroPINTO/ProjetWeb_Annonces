@@ -414,7 +414,9 @@ hr {
 .logo img {
     height: 100px
 }
-
+.logo2{
+    float: left;
+}
 .main_menu {
     list-style-type: none;
     margin-top: 0;

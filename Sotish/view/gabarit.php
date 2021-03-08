@@ -70,9 +70,9 @@
                 <nav class="menu">
 
                     <ul class="main_menu">
-                        <div class="logo">
+                        <div class="logo2">
                             <a href="index.php" class="logo">
-                                <img src="view/content/images/icons/favicon.png" class="logo" alt="IMG-LOGO"
+                                <img src="view/content/images/icons/favicon.png" class="" alt="IMG-LOGO"
                                      width="90px">
                             </a>
                         </div>
