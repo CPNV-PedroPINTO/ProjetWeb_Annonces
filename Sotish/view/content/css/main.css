@@ -314,6 +314,7 @@ hr {
 .footer {
     position: fixed;
     width: 100%;
+    left: 0;
     bottom: 0;
     background-color: #cecece;
 }
@@ -972,7 +973,7 @@ hr {
 }
 
 body {
-    padding-right: 0 !important
+    padding-right: 0 !important;
 }
 
 .menuBtn {

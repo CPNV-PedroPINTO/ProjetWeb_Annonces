@@ -11,6 +11,14 @@ ob_start();
 $title = "Sotish";
 ?>
 <html lang="en">
+<head>
+
+    <style>
+
+
+    </style>
+
+</head>
 
 <body class="bodyCreateAd">
 
@@ -19,7 +27,6 @@ $title = "Sotish";
 </h2>
 
 <!--------Form to create an announcement--------->
-
 <div class="divFormCreateAd">
     <form class="form-group formCreateAd" method="POST" action="index.php?action=submitAdd">
         <!-------Name of the advertisement input-------->
@@ -50,11 +57,19 @@ $title = "Sotish";
         <div>
             <label for="addDesc">Description</label>
             <textarea class="form-control border border-primary" id="addDesc" name="addDesc" rows="3"
-                      placeholder="je vends une ps5 pas chère, 1800$..."></textarea>
+                      placeholder="je vends une ps5 pas chère..."></textarea>
         </div>
         <br>
+        <div>
+            <label for="addDesc">Choisir une image</label>
+            <input type="file" id="img" name="img" accept="image/*">
+        </div>
+
+        <br>
         <button type="submit" value="submitAdd" class="btn btn-primary">Submit</button>
+
     </form>
+
 </div>
 
 </body>
