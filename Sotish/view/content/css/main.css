@@ -204,8 +204,7 @@ button:hover {
 }
 
 .sectionMenuLeft {
-    margin-top: 10%;
-    position: absolute;
+    margin-top: 200px;
     width: 10%;
     height: 350px;
     background-color: #fcf7f7;
@@ -312,10 +311,7 @@ hr {
 }
 
 .footer {
-    position: fixed;
     width: 100%;
-    left: 0;
-    bottom: 0;
     background-color: #cecece;
 }
 
