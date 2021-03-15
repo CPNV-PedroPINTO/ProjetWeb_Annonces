@@ -12,7 +12,9 @@
  */
 function home()
 {
+    getAdds($_POST);
     require "view/home.php";
+
 }
 
 /**
@@ -35,7 +37,6 @@ function location()
 
 function createAd()
 {
-
     require "view/createAd.php";
 }
 
@@ -46,8 +47,7 @@ function vente()
 
 function submitAdd($addInfo)
 {
-
     require_once("model/addsManager.php");
-
     getAdds($addInfo);
+
 }

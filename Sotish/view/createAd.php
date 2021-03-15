@@ -11,14 +11,7 @@ ob_start();
 $title = "Sotish";
 ?>
 <html lang="en">
-<head>
 
-    <style>
-
-
-    </style>
-
-</head>
 
 <body class="bodyCreateAd">
 
@@ -28,7 +21,7 @@ $title = "Sotish";
 
 <!--------Form to create an announcement--------->
 <div class="divFormCreateAd">
-    <form class="form-group formCreateAd" method="POST" action="index.php?action=submitAdd">
+    <form class="form-group formCreateAd" method="POST" action="index.php?action=home">
         <!-------Name of the advertisement input-------->
         <div>
             <label for="addName">Nom de l'annonce</label>
