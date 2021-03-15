@@ -62,7 +62,7 @@ $title = "Sotish";
         <br>
         <div>
             <label for="addDesc">Choisir une image</label>
-            <input type="file" id="img" name="img" accept="image/*">
+            <input type="file" class="form-control border border-primary"  id="img" name="img" accept="image/*">
         </div>
 
         <br>
