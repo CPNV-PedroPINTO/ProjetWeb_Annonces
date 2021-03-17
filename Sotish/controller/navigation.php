@@ -12,7 +12,7 @@
  */
 function home()
 {
-    getAdds($_POST);
+//    getAdds($_POST);
     require "view/home.php";
 
 }
