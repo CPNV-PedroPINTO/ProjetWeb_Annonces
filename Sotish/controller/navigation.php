@@ -7,13 +7,12 @@
  * @version   13-APR-2020
  */
 require "model/addsManager.php";
-
 /**
  * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
  */
 function home()
 {
-    getAdds();
+
     require "view/home.php";
 
 }
@@ -50,4 +49,10 @@ function submitAdd($addInfo)
 {
     addAdds($addInfo);
 
+}
+
+function displayAdds()
+{
+    getAdds();
+    require 'view/displayAdds.php';
 }

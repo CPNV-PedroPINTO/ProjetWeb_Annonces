@@ -21,7 +21,7 @@ $title = "Sotish";
 
 <!--------Form to create an announcement--------->
 <div class="divFormCreateAd">
-    <form class="form-group formCreateAd" method="POST" action="index.php?action=home">
+    <form class="form-group formCreateAd" method="POST" action="index.php?action=submitAdd">
         <!-------Name of the advertisement input-------->
         <div>
             <label for="addName">Nom de l'annonce</label>
@@ -55,11 +55,11 @@ $title = "Sotish";
         <br>
         <div>
             <label for="addDesc">Choisir une image</label>
-            <input type="file" class="form-control border border-primary"  id="img" name="img" accept="image/*">
+            <input type="file" class="form-control border border-primary"  id="addPicture" name="addPicture" accept="image/*">
         </div>
 
         <br>
-        <button type="submit" value="submitAdd" class="btn btn-primary">Submit</button>
+        <a href="index.php?action=submitAdd"> <button type="submit" value="submitAdd" class="btn btn-primary">Submit</button></a>
 
     </form>
 

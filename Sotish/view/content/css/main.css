@@ -999,3 +999,13 @@ h2 {
 .sctLost{
     text-align: center;
 }
+.imgAdd{
+    width: 200px;
+    height: 200px;
+}
+
+.divElement{
+    font-size: 20px;
+    margin-bottom: 6px;
+
+}

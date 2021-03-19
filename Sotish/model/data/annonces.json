@@ -1,9 +1,1 @@
-[
-  {
-    "Name": "Playstation 5",
-    "Type": "Vente",
-    "Price": "500$",
-    "Desc": "Pas chère, blanche",
-    "Picture": "https://www.journaldugeek.com/content/uploads/2020/06/capture-decran-2020-06-11-a-23-11-59-2-640x360.png"
-  }
-]
+[{"Name":"Playstation 5","Type":"Vente","Price":"500$","Desc":"Pas ch\u00e8re, blanche","Picture":"https:\/\/www.journaldugeek.com\/content\/uploads\/2020\/06\/capture-decran-2020-06-11-a-23-11-59-2-640x360.png"},{"Name":"xbox","Type":"Vente","Price":"2$","Desc":"C'est pas ouf la xbox","Picture":"view\\content\\images\\xbox.jpg"},{"Name":"Bucheronnage","Type":"Services","Price":"20","Desc":"20$ l'heure ","Picture":""}]

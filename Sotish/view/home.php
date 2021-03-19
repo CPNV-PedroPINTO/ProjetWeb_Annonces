@@ -13,9 +13,6 @@ $title = "Sotish";
 <h2>Vous êtes bien sur la page Home</h2>
 
 <?php
-
-echo "Nom de l'annonce : ";
-
 $content = ob_get_clean();
 require "gabarit.php";
 require "filtre gabarit.php";
