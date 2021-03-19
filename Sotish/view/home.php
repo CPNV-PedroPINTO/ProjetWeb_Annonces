@@ -6,7 +6,6 @@
  * @author    Updated by Nicolas.GLASSEY
  * @version   13-APR-2020
  */
-require "model/addsManager.php";
 ob_start();
 $title = "Sotish";
 ?>
@@ -15,14 +14,8 @@ $title = "Sotish";
 
 <?php
 
-
-
 echo "Nom de l'annonce : ";
 
-foreach ($annonces as $element) {
-    echo $element['Name'];
-    echo "<br>";
-}
 $content = ob_get_clean();
 require "gabarit.php";
 require "filtre gabarit.php";

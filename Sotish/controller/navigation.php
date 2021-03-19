@@ -6,13 +6,14 @@
  * @author    Updated by Nicolas.GLASSEY
  * @version   13-APR-2020
  */
+require "model/addsManager.php";
 
 /**
  * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
  */
 function home()
 {
-    getAdds($_POST);
+    getAdds();
     require "view/home.php";
 
 }
@@ -47,7 +48,6 @@ function vente()
 
 function submitAdd($addInfo)
 {
-    require_once("model/addsManager.php");
-    getAdds($addInfo);
+    addAdds($addInfo);
 
 }
