@@ -203,11 +203,11 @@ button:hover {
     }
 }
 
-.zone1{
-    height:150%;
+.zone1 {
+    height: 150%;
     width: 10%;
     position: fixed;
-    
+
 }
 
 .sectionMenuLeft {
@@ -230,11 +230,11 @@ hr {
     position: relative;
     margin-top: 7px;
     padding: 6px;
-    text-align: center;
+    margin-left: 10%;
     color: #fff;
+    text-align: center;
     background-color: #f34444;
     width: 160px;
-    margin-left: 1%;
     border: 1px solid #000;
     border-radius: 6px
 
@@ -301,6 +301,7 @@ hr {
 #btnLocations {
     margin-left: 5%
 }
+
 #btnVentes {
     margin-left: 5%
 }
@@ -405,11 +406,19 @@ hr {
     transition: all .3s
 }
 
+.menu{
+    width: 100%;
+}
+
+.octopus {
+    float: left;
+    margin-left: 0;
+}
+
 .logo {
     position: fixed;
-    margin-right: 180%;
-    margin-top: -1%;
     background-image: none;
+    float: right;
 }
 
 .logo:hover {
@@ -420,51 +429,7 @@ hr {
 .logo img {
     height: 100px
 }
-.logo2{
-    float: left;
-}
-.main_menu {
-    list-style-type: none;
-    margin-top: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center
-}
 
-.wrap_menu {
-    margin-left: 85%
-}
-
-.main_menu > li {
-    display: block;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px
-}
-
-.main_menu > li > a {
-    font-family: Montserrat-Regular;
-    font-size: 15px;
-    color: #333;
-    padding: 0;
-    border-bottom: 1px solid transparent
-}
-
-.main_menu > li:hover > a {
-    text-decoration: none;
-    border-bottom: 1px solid #333
-}
-
-.main_menu li {
-    position: relative
-}
 
 .header-icons {
     display: -webkit-box;
@@ -766,13 +731,6 @@ hr {
     align-items: center
 }
 
-.logo2 {
-    display: block
-}
-
-.logo2 img {
-    max-height: 27px
-}
 
 .container-menu-header-v3 {
     position: fixed;
@@ -982,7 +940,6 @@ body {
 }
 
 
-
 .menuBtn {
     margin-top: 50%;
 }
@@ -1000,18 +957,23 @@ h2 {
     float: right;
     margin-top: -38%;
 }
-.btnLoginRegister{
-    margin-right: 2%;
+
+.btnLoginRegister {
+    float: right;
+    margin-right: 4%;
+    margin-top: 1.5%;
 }
-.sctLost{
+
+.sctLost {
     text-align: center;
 }
-.imgAdd{
+
+.imgAdd {
     width: 200px;
     height: 200px;
 }
 
-.divElement{
+.divElement {
     font-size: 20px;
     margin-bottom: 6px;
 
