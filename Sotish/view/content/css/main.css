@@ -203,10 +203,16 @@ button:hover {
     }
 }
 
-.sectionMenuLeft {
-    margin-top: 10%;
-    position: absolute;
+.zone1{
+    height:150%;
     width: 10%;
+    background: red;
+    position: absolute;
+    
+}
+
+.sectionMenuLeft {
+    margin-top: 80%;
     height: 350px;
     background-color: #fcf7f7;
     border: 1px solid #282727;
@@ -975,6 +981,8 @@ hr {
 body {
     padding-right: 0 !important;
 }
+
+
 
 .menuBtn {
     margin-top: 50%;

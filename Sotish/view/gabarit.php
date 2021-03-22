@@ -45,7 +45,7 @@
     <link rel="stylesheet" type="text/css" href="view/content/css/main.css">
     <!--===============================================================================================-->
 </head>
-<body class="animsition">
+<body>
 
 <!-- Header -->
 <header class="header1">
@@ -72,7 +72,7 @@
                     <ul class="main_menu">
                         <div class="logo2">
                             <a href="index.php" class="logo">
-                                <img src="view/content/images/icons/favicon.png" class="" alt="IMG-LOGO"
+                                <img src="view/content/images/icons/favicon.png" class="octopus" alt="IMG-LOGO"
                                      width="90px">
                             </a>
                         </div>
@@ -212,3 +212,5 @@
 
 </body>
 </html>
+<?php
+$content = ob_get_clean();
