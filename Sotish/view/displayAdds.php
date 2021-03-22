@@ -13,13 +13,17 @@ $title = "Sotish";
 //Permet d'afficher les données situées dans le fichier Json
 
 function getAdds()
-{
-    $res = json_decode(file_get_contents("model/data/annonces.json"), true);
 
+{
+    $add = "yolesreufs";
+    $res = json_decode(file_get_contents("model/data/annonces.json"), true);
+    echo "<br><br><br><br>";
     foreach ($res as $element) {
+
         ?>
+
         <div class="card border-secondary mb-3" style="width: 18rem;   display: inline-block;">
-            <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' alt='imgNotFound' src='" . $element['Picture'] . "'  " . "<br>"; ?>
+            <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
             <div class="card-body">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
                 <div class="text-black divElement"><?= $element['Name'] ?></div>
@@ -27,14 +31,12 @@ function getAdds()
                 <div class="text-black divElement"> <?= $element['Type'] ?></div>
                 <h5 class="card-title"><b>Prix de l'annonce : </b></h5>
                 <div class="text-black divElement"><?= $element['Price'] . " CHF" ?></div>
-                <h5 class="card-title"><b>Description de l'annonce : </b></h5>
-                <div class="text-black divElement"> <?= $element['Desc'] ?></div>
+                <a href="index.php?action=<?= $add ?>"><button type="submit">Afficher plus</button></a>
             </div>
         </div>
         <?php
     }
 }
-
 $content = ob_get_clean();
 require "filtre_Gabarit.php";
 

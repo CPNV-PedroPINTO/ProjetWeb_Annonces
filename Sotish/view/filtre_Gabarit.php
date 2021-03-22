@@ -39,6 +39,11 @@ $title = "Sotish";
                 <a href="index.php?action=vente">
                     <button id="btnVentes">VENTES</button>
                 </a>
+            </div>  <br>
+            <div class="divVenteBtn">
+                <a href="index.php?action=displayAdds">
+                    <button id="btnVentes">Annonces</button>
+                </a>
             </div>
         </div>
     </section>
