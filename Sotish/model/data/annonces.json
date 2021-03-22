@@ -11,13 +11,34 @@
     "Type": "Services",
     "Price": "20",
     "Desc": "20$ l'heure ",
-    "Picture": ""
+    "Picture": "bucheron.jpg"
   },
   {
     "Name": "Tailler Haie",
     "Type": "Services",
     "Price": "500",
     "Desc": "long de 50Km2",
-    "Picture": "Capture d\u2019\u00e9cran (1).png"
+    "Picture": "haie.jpg"
+  },
+  {
+    "Name": "xbox",
+    "Type": "Vente",
+    "Price": "100",
+    "Desc": "xbox",
+    "Picture": "xbox.jpg"
+  },
+  {
+    "Name": "V\u00e9lo Flyer",
+    "Type": "Vente",
+    "Price": "5000",
+    "Desc": "V\u00e9lo \u00e9lectrique trouv\u00e9 \"par hasard\", gros pneus VTT ",
+    "Picture": "flyer.jpg"
+  },
+  {
+    "Name": "lave-Vaisselle",
+    "Type": "Vente",
+    "Price": "1",
+    "Desc": "fait trop de bruitsg\r\ng\r\ng\r\ng\r\ng\r\n\r\ng\r\n3gg\r\ng\r\ng\r\n\r\ng\r\ng\r\ng\r\ng\r\n\r\ng\r\ng\r\ng\r\n\r\ng\r\ng\r\ng",
+    "Picture": "bucheron.jpg"
   }
 ]

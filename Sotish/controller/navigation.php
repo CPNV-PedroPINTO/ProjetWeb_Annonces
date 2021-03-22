@@ -46,7 +46,7 @@ function vente()
 function submitAdd($addInfo)
 {
     addAdds($addInfo);
-
+    require "view/home.php";
 }
 
 function displayAdds()
