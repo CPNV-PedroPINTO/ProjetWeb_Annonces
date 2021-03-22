@@ -17,13 +17,13 @@ function getAdds()
 {
     $add = "yolesreufs";
     $res = json_decode(file_get_contents("model/data/annonces.json"), true);
-    echo "<br><br><br><br>";
+    echo "<br><br><br><br><br><br><br>";//A changer avec un margin top
     foreach ($res as $element) {
 
         ?>
 
         <div class="card border-secondary mb-3" style="width: 18rem; display: inline-block;">
-            <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
+            <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px; height: 150px' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
             <div class="card-body">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
                 <div class="text-black divElement"><?= $element['Name'] ?></div>
@@ -38,5 +38,5 @@ function getAdds()
     }
 }
 $content = ob_get_clean();
-require "filtre_Gabarit.php";
+require "gabarit.php";
 
