@@ -39,10 +39,11 @@ $title = "Sotish";
                 <a href="index.php?action=vente">
                     <button id="btnVentes">VENTES</button>
                 </a>
-            </div>  <br>
+            </div>
+            <br>
             <div class="divVenteBtn">
                 <a href="index.php?action=displayAdds">
-                    <button id="btnVentes">Annonces</button>
+                    <button id="btnVentes">ANNONCES</button>
                 </a>
             </div>
         </div>
@@ -52,4 +53,3 @@ $title = "Sotish";
 
 <?php
 $content = ob_get_clean();
-require "gabarit.php";

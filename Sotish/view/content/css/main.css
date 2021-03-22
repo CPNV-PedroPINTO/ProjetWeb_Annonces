@@ -206,8 +206,7 @@ button:hover {
 .zone1{
     height:150%;
     width: 10%;
-    background: red;
-    position: absolute;
+    position: fixed;
     
 }
 
