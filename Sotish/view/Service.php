@@ -23,4 +23,4 @@ $title = "Sotish";
 </html>
 <?php
 $content = ob_get_clean();
-require "filtre gabarit.php";
+require "filtre_Gabarit.php";

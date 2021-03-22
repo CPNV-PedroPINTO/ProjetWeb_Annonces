@@ -18,7 +18,7 @@ function getAdds()
 
     foreach ($res as $element) {
         ?>
-        <div class="card border-secondary mb-3" style="width: 18rem;">
+        <div class="card border-secondary mb-3" style="width: 18rem;   display: inline-block;">
             <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' alt='imgNotFound' src='" . $element['Picture'] . "'  " . "<br>"; ?>
             <div class="card-body">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
@@ -36,5 +36,5 @@ function getAdds()
 }
 
 $content = ob_get_clean();
-require "gabarit.php";
+require "filtre_Gabarit.php";
 

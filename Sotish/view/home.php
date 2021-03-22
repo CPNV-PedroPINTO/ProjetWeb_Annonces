@@ -11,8 +11,9 @@ $title = "Sotish";
 ?>
 
 <h2>Vous êtes bien sur la page Home</h2>
+    <img src="content/images/xbox.jpg" alt="" width="367">
 
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
-require "filtre gabarit.php";
+require "filtre_Gabarit.php";
