@@ -4,7 +4,7 @@
     "Type": "Vente",
     "Price": "500$",
     "Desc": "Pas ch\u00e8re, blanche",
-    "Picture": "https:\/\/www.journaldugeek.com\/content\/uploads\/2020\/06\/capture-decran-2020-06-11-a-23-11-59-2-640x360.png"
+    "Picture": "ps6.jpeg"
   },
   {
     "Name": "Bucheronnage",
@@ -40,5 +40,12 @@
     "Price": "1",
     "Desc": "fait trop de bruitsg\r\ng\r\ng\r\ng\r\ng\r\n\r\ng\r\n3gg\r\ng\r\ng\r\n\r\ng\r\ng\r\ng\r\ng\r\n\r\ng\r\ng\r\ng\r\n\r\ng\r\ng\r\ng",
     "Picture": "bucheron.jpg"
+  },
+  {
+    "Name": "voiture lamborgini aventador",
+    "Type": "Vente",
+    "Price": "340000",
+    "Desc": "pas ch\u00e8re",
+    "Picture": "lamborgini.jpg"
   }
 ]

@@ -10,46 +10,47 @@
 ob_start();
 $title = "Sotish";
 ?>
-    <html lang="en">
+    <html lang="fr">
     <body>
-    <section class="sectionMenuLeft">
-        <div class="divBtnPublier">
+    <div>
+        <div class="zone1">
+            <div class="sectionMenuLeft">
+                <div class="divBtnPublier">
 
-            <a href="index.php?action=createAd">
-                <button class="btnPublier">Publier</button>
-            </a>
-        </div>
-        <hr>
-        <div class="divMenuLeft">
+                    <a href="index.php?action=createAd">
+                        <button class="btnPublier">Publier</button>
+                    </a>
+                </div>
+                <hr>
+                <div class="divMenuLeft">
 
-            <div class="divServicesBtn">
-                <a href="index.php?action=service">
-                    <button id="btnServices">SERVICES</button>
-                </a>
-            </div>
-            <br>
-            <div class="divLocationBtn">
-                <a href="index.php?action=location">
-                    <button id="btnLocations">LOCATIONS</button>
-                </a>
-                <br>
-            </div>
-            <br>
-            <div class="divVenteBtn">
-                <a href="index.php?action=vente">
-                    <button id="btnVentes">VENTES</button>
-                </a>
-            </div>  <br>
-            <div class="divVenteBtn">
-                <a href="index.php?action=displayAdds">
-                    <button id="btnVentes">Annonces</button>
-                </a>
+                    <div class="divServicesBtn">
+                        <a href="index.php?action=service">
+                            <button id="btnServices">SERVICES</button>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="divLocationBtn">
+                        <a href="index.php?action=location">
+                            <button id="btnLocations">LOCATIONS</button>
+                        </a>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="divVenteBtn">
+                        <a href="index.php?action=vente">
+                            <button id="btnVentes">VENTES</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
     </body>
     </html>
 
 <?php
 $content = ob_get_clean();
 require "gabarit.php";
+
+
+
