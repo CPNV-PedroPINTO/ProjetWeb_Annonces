@@ -111,8 +111,8 @@
 
 
         <!-- Footer -->
-        <footer class="footer">
-            <div class="flex-b p-b-10">
+        <div class="main">
+            <div class="flex-b p-b-10 footer">
                 <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
                     <h4 class="s-text12 p-b-30">
                         UNE VISITE ?
@@ -166,7 +166,7 @@
 
             </div>
 
-        </footer>
+        </div>
 
 
         <!-- Container Selection1 -->

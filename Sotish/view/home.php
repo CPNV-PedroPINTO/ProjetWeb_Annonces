@@ -10,7 +10,6 @@ ob_start();
 $title = "Sotish";
 ?>
 
-        <div>yooooooooo</div>
 
 <?php
 $content = ob_get_clean();

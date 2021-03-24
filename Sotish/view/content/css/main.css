@@ -205,8 +205,8 @@ button:hover {
 
 .zone1 {
     height: 150%;
-    width: 10%;
-    position: fixed;
+    width: 200px;
+    position: absolute;
 
 }
 
@@ -317,12 +317,14 @@ hr {
     margin-left: 35%
 }
 
+
+
 .footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
+    position: absolute;
     bottom: 0;
+    width: 100%;;
     background-color: #cecece;
+
 }
 
 .select2-container {
@@ -406,7 +408,7 @@ hr {
     transition: all .3s
 }
 
-.menu{
+.menu {
     width: 100%;
 }
 
@@ -937,6 +939,8 @@ hr {
 
 body {
     padding-right: 0 !important;
+    margin: 0 auto;
+    position: relative;
 }
 
 

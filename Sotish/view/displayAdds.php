@@ -20,9 +20,9 @@ function getAdds()
     echo "<br><br><br><br><br><br><br>";//A changer avec un margin top
     foreach ($res as $element) {
 
-        ?>
+        ?> 
 
-        <div class="card border-secondary mb-3" style="width: 18rem; display: inline-block;">
+        <div class="card border-secondary mb-3" style="width: 18rem; display: inline-block; margin-left: 250px">
             <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px; height: 150px' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
             <div class="card-body">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
