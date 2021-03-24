@@ -13,6 +13,9 @@ require "model/addsManager.php";
 function home()
 {
     require "view/home.php";
+    require 'view/displayAdds.php';
+    getAdds();
+
 }
 
 /**
@@ -51,7 +54,5 @@ function submitAdd($addInfo)
 
 function displayAdds()
 {
-    require 'view/displayAdds.php';
-    getAdds();
 
 }
