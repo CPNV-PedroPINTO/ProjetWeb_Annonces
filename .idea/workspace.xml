@@ -26,6 +26,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro.PINTO\Documents\GitHub\ProjetWeb_Annonces\Sotish\view\content" />
+    </key>
+  </component>
   <component name="RunManager" selected="PHP Built-in Web Server.Sotich">
     <configuration name="Sotich" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="9098">
       <method v="2" />
@@ -55,7 +60,7 @@
       <workItem from="1612521070076" duration="93000" />
       <workItem from="1612521312878" duration="2457000" />
       <workItem from="1612768112127" duration="11000" />
-      <workItem from="1616667725056" duration="174000" />
+      <workItem from="1616667725056" duration="3117000" />
     </task>
     <servers />
   </component>
@@ -112,5 +117,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="321" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616667821335" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1616670372310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616670372310" />
   </component>
 </project>

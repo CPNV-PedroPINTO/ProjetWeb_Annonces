@@ -22,15 +22,15 @@ function getAdds()
 
         ?>
 
-        <div class="card border-secondary mb-3" style="width: 18rem; display: inline-block;">
+        <div class="card border-secondary mb-3 m-l-220 divMenuLeftMargin" style="width: 18rem; display: inline-block;">
             <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px;height: 150px; margin-left' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
-            <div class="card-body">
+            <div class="card-body ">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
-                <div class="text-black divElement"><?= $element['Name'] ?></div>
+                <div class="text-black divElement "><?= $element['Name'] ?></div>
                 <h5 class="card-title"><b>Type de l'annonce : </b></h5>
                 <div class="text-black divElement"> <?= $element['Type'] ?></div>
                 <h5 class="card-title"><b>Prix de l'annonce : </b></h5>
-                <div class="text-black divElement"><?= $element['Price'] . " CHF" ?></div>
+                <div class="text-black divElement"><?= $element['Price'] . "CHF" ?></div>
                 <a href="index.php?action=<?= $add ?>">
                     <button type="submit">Afficher plus</button>
                 </a>

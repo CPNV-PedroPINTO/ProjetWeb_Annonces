@@ -42,8 +42,8 @@ $title = "Sotish";
         <!-------Price of the advertisement input-------->
         <div>
             <label for="addPrice">Prix de l'annonce</label>
-            <input type="text" class="form-control border border-primary" id="addPrice"
-                   placeholder="1800$" name="addPrice">
+            <input type="number" class="form-control border border-primary" id="addPrice"
+                   placeholder="1800" name="addPrice">
         </div>
         <br>
         <!-------Description of the advertisement input-------->

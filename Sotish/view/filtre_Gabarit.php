@@ -24,7 +24,7 @@ $title = "Sotish";
                     </div>
                 </a>
                 <hr>
-                <div class="divMenuLeft">
+                <div class="divMenuLeft" >
 
                     <a href="index.php?action=service">
                         <div class="divServicesBtn">

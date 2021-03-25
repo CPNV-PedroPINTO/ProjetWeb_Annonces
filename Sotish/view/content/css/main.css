@@ -252,6 +252,10 @@ hr {
 
 }
 
+.divMenuLeftMargin {
+    margin-Left: 1000px;
+}
+
 .divServicesBtn {
     background-color: #c4c1c1;
     width: 80%;
@@ -316,7 +320,6 @@ hr {
     text-align: center;
     margin-left: 35%
 }
-
 
 
 .footer {
