@@ -15,33 +15,41 @@ $title = "Sotish";
     <div>
         <div class="zone1">
             <div class="sectionMenuLeft">
-                <div class="divBtnPublier">
+                <a href="index.php?action=createAd">
+                    <div class="divBtnPublier">
 
-                    <a href="index.php?action=createAd">
+
                         <button class="btnPublier">Publier</button>
-                    </a>
-                </div>
+
+                    </div>
+                </a>
                 <hr>
                 <div class="divMenuLeft">
 
-                    <div class="divServicesBtn">
-                        <a href="index.php?action=service">
+                    <a href="index.php?action=service">
+                        <div class="divServicesBtn">
+
                             <button id="btnServices">SERVICES</button>
-                        </a>
-                    </div>
+
+                        </div>
+                    </a>
                     <br>
-                    <div class="divLocationBtn">
-                        <a href="index.php?action=location">
+                    <a href="index.php?action=location">
+                        <div class="divLocationBtn">
+
                             <button id="btnLocations">LOCATIONS</button>
-                        </a>
-                        <br>
-                    </div>
+
+                            <br>
+                        </div>
+                    </a>
                     <br>
-                    <div class="divVenteBtn">
-                        <a href="index.php?action=vente">
+                    <a href="index.php?action=vente">
+                        <div class="divVenteBtn">
+
                             <button id="btnVentes">VENTES</button>
-                        </a>
-                    </div>
+
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
