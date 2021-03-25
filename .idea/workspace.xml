@@ -23,12 +23,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Autre template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
-  <component name="RunManager">
-    <configuration name="projet" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/Autre template" port="8888">
+  <component name="RunManager" selected="PHP Built-in Web Server.Sotich">
+    <configuration name="Sotich" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="9098">
       <method v="2" />
     </configuration>
+    <configuration name="Stoich" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/Autre template" port="9098">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.Stoich" />
+      <item itemvalue="PHP Built-in Web Server.Sotich" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -47,6 +55,7 @@
       <workItem from="1612521070076" duration="93000" />
       <workItem from="1612521312878" duration="2457000" />
       <workItem from="1612768112127" duration="11000" />
+      <workItem from="1616667725056" duration="174000" />
     </task>
     <servers />
   </component>
@@ -59,14 +68,20 @@
     </state>
     <state x="657" y="195" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1612521123569" />
     <state x="700" y="201" key="#PHP/66.0.1854.1080@66.0.1854.1080" timestamp="1612346340282" />
-    <state x="395" y="189" width="1092" height="753" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612521350214">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="538" y="191" key="#Stoich" timestamp="1616667874757">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="538" y="191" key="#Stoich/0.0.1920.1040@0.0.1920.1040" timestamp="1616667874757" />
+    <state x="395" y="187" width="1092" height="753" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616667897991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="395" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616667897991" />
     <state x="395" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612521350214" />
     <state x="447" y="194" width="1092" height="753" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.0.1854.1080@66.0.1854.1080" timestamp="1612346373454" />
-    <state x="669" y="207" key="#projet" timestamp="1612521125271">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="669" y="205" key="#projet" timestamp="1616667871493">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="669" y="205" key="#projet/0.0.1920.1040@0.0.1920.1040" timestamp="1616667871493" />
     <state x="669" y="207" key="#projet/0.0.1920.1050@0.0.1920.1050" timestamp="1612521125271" />
     <state x="732" y="304" key="FileChooserDialogImpl" timestamp="1612521349016">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -93,5 +108,9 @@
     </state>
     <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612523797528" />
     <state width="881" height="297" key="GridCell.Tab.0.right/66.0.1854.1080@66.0.1854.1080" timestamp="1612347242460" />
+    <state x="321" y="76" key="SettingsEditor" timestamp="1616667821335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="321" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616667821335" />
   </component>
 </project>
