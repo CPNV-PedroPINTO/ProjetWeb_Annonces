@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/SNOWS-151_2021 - 08 - BDrents" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +61,7 @@
       <workItem from="1612521312878" duration="2457000" />
       <workItem from="1612768112127" duration="11000" />
       <workItem from="1616667725056" duration="3262000" />
+      <workItem from="1616742750992" duration="159000" />
     </task>
     <servers />
   </component>
@@ -88,9 +89,10 @@
     </state>
     <state x="669" y="205" key="#projet/0.0.1920.1040@0.0.1920.1040" timestamp="1616667871493" />
     <state x="669" y="207" key="#projet/0.0.1920.1050@0.0.1920.1050" timestamp="1612521125271" />
-    <state x="732" y="304" key="FileChooserDialogImpl" timestamp="1612521349016">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="732" y="301" key="FileChooserDialogImpl" timestamp="1616742907987">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="732" y="301" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616742907987" />
     <state x="732" y="304" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612521349016" />
     <state x="773" y="313" key="FileChooserDialogImpl/66.0.1854.1080@66.0.1854.1080" timestamp="1612347240448" />
     <state width="1861" height="265" key="GridCell.Tab.0.bottom" timestamp="1616670990207">

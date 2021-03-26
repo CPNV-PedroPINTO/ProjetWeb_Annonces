@@ -22,7 +22,7 @@ function getAdds()
 
         ?>
 
-        <div class="card border-secondary mb-3 m-l-220 divMenuLeftMargin" style="width: 18rem; display: inline-block;">
+        <div class="card border-secondary mb-3 m-l-220" style="width: 18rem; display: inline-block;  ">
             <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px;height: 150px; margin-left' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
             <div class="card-body ">
                 <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
