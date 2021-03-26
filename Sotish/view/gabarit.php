@@ -131,6 +131,8 @@
                                class="fs-18 color1 p-r-20 fa fa-instagram" target="_blank"></a>
                             <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
                                class="fs-18 color1 p-r-20 fa fa-youtube-play" target="_blank"></a>
+                            <a href="https://www.youtube.com/channel/UCiPtGUZFsw9zQpNBFjKO8bg"
+                               class="fs-18 color1 p-r-20 fa fa-snapchat" target="_blank"></a>
                         </div>
                     </div>
                 </div>

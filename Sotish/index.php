@@ -41,9 +41,6 @@ if (isset($_GET['action'])) {
         case 'submitAdd':
             submitAdd($_POST);
             break;
-        case 'displayAdds':
-            displayAdds();
-            break;
         default :
             lost();
     }
