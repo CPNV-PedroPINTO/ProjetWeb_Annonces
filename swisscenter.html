@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-body">
+            <h2 id="welcome_1" class="pb-3"></h2>
+            <p id="welcome_2" class="card-text"></p>
+        </div>
+    </div>
+    <div class="card mt-4">
+        <div class="card-body">
+            <h2 id="help_1" class="pb-3"></h2>
+            <p id="help_2" class="card-text"></p>
+        </div>
+    </div>
+    <div class="card mt-4">
+        <div class="card-body">
+            <h2 id="info_1" class="pb-3"></h2>
+            <p id="info_2"></p>
+            <div class="d-flex justify-content-between">
+                <a href="https://www.swisscenter.com" target="_blank">https://www.swisscenter.com</a>
+                <a href="https://support.swisscenter.com" target="_blank" id="info_3"></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center m-4">
+        <a href="https://www.swisscenter.com" target="_blank"><img src="https://www.swisscenter.com/theme/swisscenter/images/logo_swisscenter.png" alt="SwissCenter Logo" /></a>
+    </div>
+</div>
+
+<script>
+    var locale = navigator.language;
+    var language = locale.substring(0, 2).toLowerCase() == 'fr' ? 'fr' : 'en';
+    var LANG = [];
+    LANG['fr'] = {
+        'WELCOME': "Bienvenue sur",
+        'DEFAULT': "Ceci est une page par défaut créée par SwissCenter.",
+        'HELP': "Vous ne voyez pas la page d'accueil de votre site ?",
+        'SOLUTION': "Supprimez la page <mark>swisscenter.html</mark> se trouvant à la racine du site, et utiliser un nom de page du type <mark>index.html</mark>, <mark>index.html</mark> ou <mark>index.php</mark>. Pour mémoire, votre site doit être publié (déposé) dans le dossier pourtant le nom de votre domaine.",
+        'WHAT': "Qui est SwissCenter ?",
+        'SWISSCENTER': "SwissCenter est une société Suisse qui fournit des serveurs haute disponibilité et est reconnu par les professionnels du net pour sa fiabilité, la qualité de son conseil et de son savoir-faire, vous propose des services internet qui répondront à tous vos besoins.",
+        'NEED_HELP': "Besoin d'aide ?",
+    };
+    LANG['en'] = {
+        'WELCOME': "Welcome on",
+        'DEFAULT': "This is a default page created by SwissCenter.",
+        'HELP': "You do not see the homepage of your site?",
+        'SOLUTION': "Delete the <mark>swisscenter.html</mark> found at the root of the site and use a page name like <mark>index.html</mark>, <mark>index.html</mark> or <mark>index.php</mark>. For memory, your site must be published in the folder however the name of your domain.",
+        'WHAT': "What's SwissCenter?",
+        'SWISSCENTER': "SwissCenter is a Swiss company that provides high availability servers which is universally considered by web professionals for the high reliability of its services, the quality of its support and its know-how. SwissCenter can provide you with all the Internet services you need.",
+        'NEED_HELP': "Need help?"
+    };
+    document.title = LANG[language]['WELCOME'] + " " + (window.location.hostname ? window.location.hostname : "localhost");
+    document.getElementsByTagName("html")[0].setAttribute('lang', language);
+    document.getElementById('welcome_1').innerHTML = LANG[language]['WELCOME'] + " " + (window.location.hostname ? window.location.hostname : "localhost");
+    document.getElementById('welcome_2').innerHTML = LANG[language]['DEFAULT'];
+    document.getElementById('help_1').innerHTML = LANG[language]['HELP'];
+    document.getElementById('help_2').innerHTML = LANG[language]['SOLUTION'];
+    document.getElementById('info_1').innerHTML = LANG[language]['WHAT'];
+    document.getElementById('info_2').innerHTML = LANG[language]['SWISSCENTER'];
+    document.getElementById('info_3').innerHTML = LANG[language]['NEED_HELP'];
+</script>
+
+</body>
+</html>

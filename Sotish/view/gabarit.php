@@ -66,27 +66,27 @@
             <div class="wrap_header">
 
                 <!-- Menu -->
-                    <nav class="menu">
-                        <div class="octopus">
-                            <a href="index.php">
-                                <img src="view/content/images/icons/favicon.png" alt="IMG-LOGO"
-                                     width="90px">
-                            </a>
-                        </div>
-                        <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
-                            <li class="btnLoginRegister">
+                <nav class="menu">
+                    <div class="octopus">
+                        <a href="index.php">
+                            <img src="view/content/images/icons/favicon.png" alt="IMG-LOGO"
+                                 width="90px">
+                        </a>
+                    </div>
+                    <?php if (!isset($_SESSION['userEmailAddress']) || (!isset($_GET['action'])) || ((@$_GET['action'] == "logout"))) : ?>
+                        <li class="btnLoginRegister">
 
-                                <a href="index.php?action=login">Login</a> /
+                            <a href="index.php?action=login">Login</a> /
 
-                                <a href="index.php?action=register">S'enregistrer</a>
+                            <a href="index.php?action=register">S'enregistrer</a>
 
-                            </li>
-                        <?php else : ?>
-                            <li class="btnLoginRegister">
-                                <a href="index.php?action=logout">Logout</a>
-                            </li>
-                        <?php endif; ?>
-                    </nav>
+                        </li>
+                    <?php else : ?>
+                        <li class="btnLoginRegister">
+                            <a href="index.php?action=logout">Logout</a>
+                        </li>
+                    <?php endif; ?>
+                </nav>
 
                 <!-- Header Icon -->
                 <div class="header-icons">
@@ -98,15 +98,56 @@
                     <?php else : ?>
 
                     <?php endif; ?>
-
-
                 </div>
             </div>
         </div>
 
+        <?php
+        if (@$_GET['action'] !='login' && @$_GET['action'] != 'register' )  {
+            ?>
+            <div class="zone1">
+                <div class="sectionMenuLeft">
+                    <a href="index.php?action=createAd">
+                        <div class="divBtnPublier">
+                            <button class="btnPublier">Publier</button>
 
-        <?=
-        $content;
+                        </div>
+                    </a>
+                    <hr>
+                    <div class="divMenuLeft">
+
+                        <a href="index.php?action=service">
+                            <div class="divServicesBtn">
+
+                                <button id="btnServices">SERVICES</button>
+
+                            </div>
+                        </a>
+                        <br>
+                        <a href="index.php?action=location">
+                            <div class="divLocationBtn">
+
+                                <button id="btnLocations">LOCATIONS</button>
+
+                                <br>
+                            </div>
+                        </a>
+                        <br>
+                        <a href="index.php?action=vente">
+                            <div class="divVenteBtn">
+
+                                <button id="btnVentes">VENTES</button>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <?php
+        }
+
+       echo $content;
         ?>
 
 
@@ -210,4 +251,4 @@
     </html>
 <?php
 $content = ob_get_clean();
-
+?>

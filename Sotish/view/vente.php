@@ -15,7 +15,6 @@ $title = "Sotish";
     <head>
         <title><?= $title; ?></title>
         <meta charset="UTF-8">
-
     </head>
     <body>
     <h2>Vous êtes bien sur la page Vente</h2>

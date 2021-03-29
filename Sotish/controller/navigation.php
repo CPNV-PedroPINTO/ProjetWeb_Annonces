@@ -4,23 +4,20 @@
  * @brief     This controller is designed to manage all navigation aspect (view controller view)
  * @author    Created by Pascal.BENZONANA
  * @author    Updated by Nicolas.GLASSEY
+ * @author    Updated by Simon.CUANY
+ * @author    Updated by Mahe.LAVAUD
+ * @author    Updated by Pedro.PINTO
  * @version   13-APR-2020
  */
 require "model/addsManager.php";
-/**
- * @brief This function is designed to redirect the user to the home page (depending on the action received by the index)
- */
+
 function home()
 {
+    $res = getAdds();
     require "view/home.php";
-    require 'view/displayAdds.php';
-    getAdds();
 
 }
 
-/**
- * @brief This function is designed to inform the user that the resource requested doesn't exist (i. e. if the user modify the url manually)
- */
 function lost()
 {
     require "view/lost.php";
@@ -28,22 +25,25 @@ function lost()
 
 function service()
 {
-    require 'view/service.php';
+    $service = getAddsService();
+    require "view/home.php";
 }
 
 function location()
 {
-    require 'view/location.php';
+    $location = getAddsLocation();
+    require 'view/home.php';
+}
+
+function vente()
+{
+    $vente = getAddsVente();
+    require "view/home.php";
 }
 
 function createAd()
 {
     require "view/createAd.php";
-}
-
-function vente()
-{
-    require "view/vente.php";
 }
 
 function submitAdd($addInfo)

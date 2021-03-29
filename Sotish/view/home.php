@@ -8,9 +8,28 @@
  */
 ob_start();
 $title = "Sotish";
-?>
 
+//Permet d'afficher les données situées dans le fichier Json
 
-<?php
+echo "<br><br><br><br><br><br><br>";//A changer avec un margin top
+
+foreach ($res as $element) {
+
+    ?>
+
+    <div class="card border-secondary mb-3 m-l-220" style="width: 18rem; display: inline-block;  ">
+        <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px;height: 150px; margin-left' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
+        <div class="card-body ">
+            <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
+            <div class="text-black divElement "><?= $element['Name'] ?></div>
+            <h5 class="card-title"><b>Type de l'annonce : </b></h5>
+            <div class="text-black divElement"> <?= $element['Type'] ?></div>
+            <h5 class="card-title"><b>Prix de l'annonce : </b></h5>
+            <div class="text-black divElement"><?= $element['Price'] . "CHF" ?></div>
+        </div>
+    </div>
+
+    <?php
+}
 $content = ob_get_clean();
-require "filtre_Gabarit.php";
+require "gabarit.php";

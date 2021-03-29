@@ -1,9 +1,1 @@
-[
-  {
-    "Name": "Playstation 5",
-    "Type": "Vente",
-    "Price": "500",
-    "Desc": "Pas ch\u00e8re, blanche",
-    "Picture": "ps6.jpeg"
-  }
-]
+[{"Name":"Playstation 5","Type":"Vente","Price":"500","Desc":"Pas ch\u00e8re, blanche","Picture":"ps6.jpeg"},{"Name":"Playstation 5","Type":"location","Price":"500","Desc":"Pas ch\u00e8re, blanche","Picture":"ps6.jpeg"},{"Name":"Playstation 5","Type":"Vente","Price":"500","Desc":"Pas ch\u00e8re, blanche","Picture":"ps6.jpeg"},{"Name":"Playstation 5","Type":"Vente","Price":"500","Desc":"Pas ch\u00e8re, blanche","Picture":"ps6.jpeg"},{"Name":"test","Type":"Location","Price":"123123","Desc":"","Picture":"bucheron.jpg"},{"Name":"Service","Type":"Services","Price":"123123","Desc":"","Picture":"xbox.jpg"},{"Name":null,"Type":null,"Price":null,"Desc":null,"Picture":null},{"Name":"Service","Type":"Services","Price":"123123","Desc":"","Picture":"xbox.jpg"}]

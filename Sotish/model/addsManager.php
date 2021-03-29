@@ -21,5 +21,37 @@ function addAdds($addInfos)
     file_put_contents($file, $jsonData);
 
 }
-
+function getAdds(){
+    return json_decode(file_get_contents("model/data/annonces.json"), true);
+}
+function getAddsLocation(){
+     $location = json_decode(file_get_contents("model/data/annonces.json"), true);
+     $loc = [];
+    foreach ($location as $item) {
+        if ($item['Type']=="Location"){
+            $loc[] = $item;
+        }
+     }
+    return $loc;
+}
+function getAddsService(){
+    $service = json_decode(file_get_contents("model/data/annonces.json"), true);
+     $Ser = [];
+    foreach ($service as $item) {
+        if ($item['Type']=="Service"){
+            $Ser[] = $item;
+        }
+     }
+    return $Ser;
+}
+function getAddsVente(){
+    $vente = json_decode(file_get_contents("model/data/annonces.json"), true);
+     $Ven = [];
+    foreach ($vente as $item) {
+        if ($item['Type']=="Vente"){
+            $Ven[] = $item;
+        }
+     }
+    return $Ven;
+}
 
