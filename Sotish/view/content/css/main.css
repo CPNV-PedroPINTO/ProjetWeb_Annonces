@@ -256,60 +256,18 @@ hr {
     margin-Left: 1000px;
 }
 
-.divServicesBtn {
+.divBtn{
     background-color: #c4c1c1;
     width: 80%;
     box-shadow: 5px 1px 10px
 }
-
-.divServicesBtn:hover {
+.divBtn:hover{
     background-color: #8d8a8a
 }
 
-.divLocationBtn {
-    background-color: #c4c1c1;
-    width: 80%;
-    box-shadow: 5px 1px 10px
-}
-
-.divLocationBtn:hover {
-    background-color: #8d8a8a
-}
-
-.divVenteBtn {
-    background-color: #c4c1c1;
-    width: 80%;
-    box-shadow: 5px 1px 10px
-}
-
-.divVenteBtn:hover {
-    background-color: #8d8a8a
-}
-
-#btnServices {
+.BtnMargin{
     margin-left: 5%
 }
-
-.divLocationBtn {
-    background-color: #c4c1c1;
-    width: 80%;
-    box-shadow: 5px 1px 10px
-}
-
-.divVenteBtn {
-    background-color: #c4c1c1;
-    width: 80%;
-    box-shadow: 5px 1px 10px
-}
-
-#btnLocations {
-    margin-left: 5%
-}
-
-#btnVentes {
-    margin-left: 5%
-}
-
 
 .formCreateAd {
     width: 500px
@@ -324,11 +282,12 @@ hr {
 
 .footer {
     position: absolute;
+    float: bottom;
     bottom: 0;
     width: 100%;;
     background-color: #cecece;
-
 }
+
 
 .select2-container {
     display: block;
@@ -943,7 +902,7 @@ hr {
 body {
     padding-right: 0 !important;
     margin: 0 auto;
-    position: relative;
+
 }
 
 
