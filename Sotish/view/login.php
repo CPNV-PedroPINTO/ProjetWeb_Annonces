@@ -40,10 +40,8 @@ ob_start();
                             <input type="submit" value="login" class="flex-c-m size10 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
                         <br>Pas de compte ? <a href="../index.php?action=register">Inscrivez-vous</a>
                         </div>
-                    </form>
                 </div>
             </div>
-        </div>
     </section>
 
 <?php

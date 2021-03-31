@@ -38,7 +38,8 @@ function login($loginRequest)
                 createSession($userEmailAddress);
                 require "view/home.php";
             } else { //if the user/psw does not match, login form appears again with an error message
-                $loginErrorMessage = "L'adresse email et/ou le mot de passe ne correspondent pas !";
+                echo "<br><br><br><br><br><br><br><br>";
+              echo '<h1>L`adresse email et/ou le mot de passe ne correspondent pas !</h1>' ;
                 require "view/login.php";
             }
         } else { //the user does not yet fill the form
@@ -49,6 +50,7 @@ function login($loginRequest)
         require "view/login.php";
     }
 }
+
 
 /**
  * @brief This function is designed to manage logout request
@@ -75,8 +77,6 @@ function register($registerRequest)
             $userEmailAddress = $registerRequest['registerInputUserEmailAddress'];
             $userPsw = $registerRequest['registerPassword'];
             $userPswRepeat = $registerRequest['registerVerifyPassword'];
-
-
 
             if ($userPsw == $userPswRepeat) {
                 require_once "model/usersManager.php";

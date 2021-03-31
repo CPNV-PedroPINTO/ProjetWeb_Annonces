@@ -103,6 +103,7 @@
         </div>
 
         <?php
+        //Permet de cacher le menu dans les pages logins et register
         if (@$_GET['action'] !='login' && @$_GET['action'] != 'register' )  {
             ?>
             <div class="zone1">

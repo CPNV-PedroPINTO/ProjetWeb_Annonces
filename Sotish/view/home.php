@@ -11,25 +11,25 @@ $title = "Sotish";
 
 //Permet d'afficher les données situées dans le fichier Json
 
-echo "<br><br><br><br><br><br><br>";//A changer avec un margin top
-
-foreach ($res as $element) {
+foreach (@$res as $element) {
 
     ?>
-
-    <div class="card border-secondary mb-3 m-l-220" style="width: 18rem; display: inline-block;  ">
+    <form action="index.php?action=remvoveAdd">
+    <div class="card border-secondary mb-3 m-l-220" style="width: 18rem; display: inline-block; margin-top: 10%">
         <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px;height: 150px; margin-left' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
-        <div class="card-body ">
+        <div class="card-body  ">
             <h5 class="card-title"><b>Nom de l'annonce : </b></h5>
             <div class="text-black divElement "><?= $element['Name'] ?></div>
             <h5 class="card-title"><b>Type de l'annonce : </b></h5>
             <div class="text-black divElement"> <?= $element['Type'] ?></div>
             <h5 class="card-title"><b>Prix de l'annonce : </b></h5>
             <div class="text-black divElement"><?= $element['Price'] . "CHF" ?></div>
+            <button type="submit" name="btnDelete" value="<?= $element['Name'] ?>" class="btn btn-primary">Supprimer annonce</button>
         </div>
     </div>
-
+    </form>
     <?php
+
 }
 $content = ob_get_clean();
 require "gabarit.php";

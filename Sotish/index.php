@@ -41,6 +41,9 @@ if (isset($_GET['action'])) {
         case 'submitAdd':
             submitAdd($_POST);
             break;
+        case 'remvoveAdd':
+            spliceAdd();
+            break;
         default :
             lost();
     }
