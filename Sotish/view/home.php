@@ -14,7 +14,7 @@ $title = "Sotish";
 foreach (@$res as $element) {
 
     ?>
-    <form action="index.php?action=remvoveAdd">
+    <form action="index.php?action=remvoveAdd" class="cardform">
     <div class="card border-secondary mb-3 m-l-220" style="width: 18rem; display: inline-block; margin-top: 10%">
         <?php echo "<b>Photo de l'annonce : </b><img class='card-img-top' style='width: 250px;height: 150px; margin-left' alt='imgNotFound' src='" . "view/content/images/" . $element['Picture'] . "'  " . "<br>"; ?>
         <div class="card-body  ">

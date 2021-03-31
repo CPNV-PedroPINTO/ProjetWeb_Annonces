@@ -249,11 +249,6 @@ hr {
     margin-left: 5%;
     height: 10%;
     margin-top: 30px;
-
-}
-
-.divMenuLeftMargin {
-    margin-Left: 1000px;
 }
 
 .divBtn{
@@ -279,12 +274,21 @@ hr {
     margin-left: 35%
 }
 
+.cardform {
+    margin-right: 50px;
+    margin-top: 135px;
+    width: 250px;
+    position: absolute;
+
+}
+
+
 
 .footer {
     position: absolute;
     float: bottom;
     bottom: 0;
-    width: 100%;;
+    width: 100%;
     background-color: #cecece;
 }
 
