@@ -25,19 +25,19 @@ function lost()
 
 function service()
 {
-    $service = getAddsService();
+    $res = getAddsService();
     require "view/home.php";
 }
 
 function location()
 {
-    $location = getAddsLocation();
+    $res = getAddsLocation();
     require 'view/home.php';
 }
 
 function vente()
 {
-    $vente = getAddsVente();
+    $res = getAddsVente();
     require "view/home.php";
 }
 

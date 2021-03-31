@@ -12,7 +12,6 @@ $title = "Sotish";
 ?>
 <html lang="en">
 
-
 <body class="bodyCreateAd">
 
 <h2 class="l-text2 t-center" style="color: black">

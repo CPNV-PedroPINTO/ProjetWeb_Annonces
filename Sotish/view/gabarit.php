@@ -103,6 +103,7 @@
         </div>
 
         <?php
+        //Permet de cacher le menu dans les pages logins et register
         if (@$_GET['action'] !='login' && @$_GET['action'] != 'register' )  {
             ?>
             <div class="zone1">
@@ -115,28 +116,35 @@
                     </a>
                     <hr>
                     <div class="divMenuLeft">
+                        <a href="index.php?action=home">
+                            <div class="divBtn">
 
+                                <button class="BtnMargin">MENU</button>
+
+                            </div>
+                        </a>
+                        <br>
                         <a href="index.php?action=service">
-                            <div class="divServicesBtn">
+                            <div class="divBtn">
 
-                                <button id="btnServices">SERVICES</button>
+                                <button class="BtnMargin">SERVICES</button>
 
                             </div>
                         </a>
                         <br>
                         <a href="index.php?action=location">
-                            <div class="divLocationBtn">
+                            <div class="divBtn">
 
-                                <button id="btnLocations">LOCATIONS</button>
+                                <button class="BtnMargin">LOCATIONS</button>
 
                                 <br>
                             </div>
                         </a>
                         <br>
                         <a href="index.php?action=vente">
-                            <div class="divVenteBtn">
+                            <div class="divBtn">
 
-                                <button id="btnVentes">VENTES</button>
+                                <button class="BtnMargin">VENTES</button>
 
                             </div>
                         </a>
